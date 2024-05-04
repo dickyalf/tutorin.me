@@ -1,6 +1,6 @@
 /*
 Author       : Dreamguys
-Template Name: Mentoring - Bootstrap Template
+Template Name: Tutorly - Bootstrap Template
 Version      : 1.0
 */
 
