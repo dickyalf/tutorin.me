@@ -1,31 +1,13 @@
-<!DOCTYPE html> 
-<html lang="en">
-	<head>
+@extends('layouts.app')
 
-		<meta charset="utf-8">
-		<title>Tutorly</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-		
-		<!-- Favicon -->
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-		
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<!-- Fontawesome CSS -->
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
-		
-		<!-- Main CSS -->
-		<link rel="stylesheet" href="assets/css/style.css">
-	
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="en">
+		<body>
 
 		<!-- Main Wrapper -->
 		<div class="main-wrapper">
-		
-			<!-- Header -->
+
+			<!-		- Header -->
 			<header class="header">
 				<div class="header-fixed">
 				<nav class="navbar navbar-expand-lg header-nav">
@@ -128,13 +110,13 @@
                                     <li><a href="{{ route('home') }}">Blog Details</a></li>
                                 </ul>
                             </li>
-						</ul>		 
-					</div>		 
+						</ul>
+					</div>
 					<ul class="nav header-navbar-rht">
-						
+
 						<!-- User Menu -->
-						<li class="nav-item dropdown has-arrow logged-item">
-							<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+						<li class="nav-item dropdo		 wn has-arrow 		 logged-item">
+							<a href="#" class="dro						pdown-toggle nav-link" data-bs-toggle="dropdown">
 								<span class="user-img">
 									<img class="rounded-circle" src="assets/img/user/user.jpg" width="31" alt="Darren Elder">
 								</span>
@@ -161,12 +143,12 @@
 				</div>
 			</header>
 			<!-- /Header -->
-			
+
 			<!-- Breadcrumb -->
 			<div class="breadcrumb-bar">
 				<div class="container-fluid">
 					<div class="row align-items-center">
-						<div class="col-md-12 col-12">
+						<div c			lass="col-md-12 col-12">
 							<nav aria-label="breadcrumb" class="page-breadcrumb">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -179,14 +161,14 @@
 				</div>
 			</div>
 			<!-- /Breadcrumb -->
-			
+
 			<!-- Page Content -->
 			<div class="content">
 				<div class="container-fluid">
 
 					<div class="row">
 						<div class="col-lg-8 offset-lg-2">
-							<div class="invoice-content">
+							<div 			class="invoice-content">
 								<div class="invoice-item">
 									<div class="row">
 										<div class="col-md-6">
@@ -202,13 +184,13 @@
 										</div>
 									</div>
 								</div>
-								
+
 								<!-- Invoice Item -->
 								<div class="invoice-item">
 									<div class="row">
 										<div class="col-md-6">
 											<div class="invoice-info">
-												<strong class="customer-text">Invoice From</strong>
+												<strong c								lass="customer-text">Invoice From</strong>
 												<p class="invoice-details invoice-details-two">
 													Willas Rorrong <br>
 													806 Kos bu ika, Sambikerep,<br>
@@ -229,13 +211,13 @@
 									</div>
 								</div>
 								<!-- /Invoice Item -->
-								
+
 								<!-- Invoice Item -->
 								<div class="invoice-item">
 									<div class="row">
 										<div class="col-md-12">
 											<div class="invoice-info">
-												<strong class="customer-text">Payment Method</strong>
+												<strong class="customer-text">Payme								nt Method</strong>
 												<p class="invoice-details invoice-details-two">
 													Debit Card <br>
 													XXXXXXXXXXXX-2541 <br>
@@ -246,13 +228,13 @@
 									</div>
 								</div>
 								<!-- /Invoice Item -->
-								
+
 								<!-- Invoice Item -->
 								<div class="invoice-item invoice-table-wrap">
 									<div class="row">
 										<div class="col-md-12">
 											<div class="table-responsive">
-												<table class="invoice-table table table-bordered">
+												<table class="invoice-table t								able table-bordered">
 													<thead>
 														<tr>
 															<th>Description</th>
@@ -307,161 +289,24 @@
 									</div>
 								</div>
 								<!-- /Invoice Item -->
-								
+
 								<!-- Invoice Information -->
 								<div class="other-info">
 									<h4>Other information</h4>
-									<p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dictum ligula, cursus blandit risus. Maecenas eget metus non tellus dignissim aliquam ut a ex. Maecenas sed vehicula dui, ac suscipit lacus. Sed finibus leo vitae lorem interdum, eu scelerisque tellus fermentum. Curabitur sit amet lacinia lorem. Nullam finibus pellentesque libero.</p>
+									<p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dictum ligula, cursus blandit risus. Maecenas eget metus non tellus dignissim 								aliquam ut a ex. Maecenas sed vehicula dui, ac suscipit lacus. Sed finibus leo vitae lorem interdum, eu scelerisque tellus fermentum. Curabitur sit amet lacinia lorem. Nullam finibus pellentesque libero.</p>
 								</div>
 								<!-- /Invoice Information -->
-								
+
 							</div>
 						</div>
 					</div>
 
 				</div>
 
-			</div>		
+			</div>
 			<!-- /Page Content -->
-   
-			<!-- Footer -->
-			<footer class="footer">
-				
-				<!-- Footer Top -->
-				<div class="footer-top">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-lg-3 col-md-6">
-							
-								<!-- Footer Widget -->
-								<div class="footer-widget footer-about">
-									<div class="footer-logo">
-										<img src="assets/img/tutorly.png" alt="logo">
-									</div>
-									<div class="footer-about-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-										<div class="social-icon">
-											<ul>
-												<li>
-													<a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
-												</li>
-												<li>
-													<a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
-												</li>
-												<li>
-													<a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-												</li>
-												<li>
-													<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-												</li>
-												<li>
-													<a href="#" target="_blank"><i class="fab fa-dribbble"></i> </a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<!-- /Footer Widget -->
-								
-							</div>
-							
-							<div class="col-lg-3 col-md-6">
-							
-								<!-- Footer Widget -->
-								<div class="footer-widget footer-menu">
-									<h2 class="footer-title">For Mentee</h2>
-									<ul>
-										<li><a href="search.html">Search Mentors</a></li>
-										<li><a href="login.html">Login</a></li>
-										<li><a href="register.html">Register</a></li>
-										<li><a href="booking.html">Booking</a></li>
-										<li><a href="dashboard-mentee.html">Mentee Dashboard</a></li>
-									</ul>
-								</div>
-								<!-- /Footer Widget -->
-								
-							</div>
-							
-							<div class="col-lg-3 col-md-6">
-							
-								<!-- Footer Widget -->
-								<div class="footer-widget footer-menu">
-									<h2 class="footer-title">For Mentors</h2>
-									<ul>
-										<li><a href="appointments.html">Appointments</a></li>
-										<li><a href="chat.html">Chat</a></li>
-										<li><a href="login.html">Login</a></li>
-										<li><a href="register.html">Register</a></li>
-										<li><a href="dashboard.html">Mentor Dashboard</a></li>
-									</ul>
-								</div>
-								<!-- /Footer Widget -->
-								
-							</div>
-							
-							<div class="col-lg-3 col-md-6">
-							
-								<!-- Footer Widget -->
-								<div class="footer-widget footer-contact">
-									<h2 class="footer-title">Contact Us</h2>
-									<div class="footer-contact-info">
-										<div class="footer-address">
-											<span><i class="fas fa-map-marker-alt"></i></span>
-											<p> 3556  Beech Street, San Francisco,<br> California, CA 94108 </p>
-										</div>
-										<p>
-											<i class="fas fa-phone-alt"></i>
-											+1 315 369 5943
-										</p>
-										<p class="mb-0">
-											<i class="fas fa-envelope"></i>
-											mentoring@example.com
-										</p>
-									</div>
-								</div>
-								<!-- /Footer Widget -->
-								
-							</div>
-							
-						</div>
-					</div>
-				</div>
-				<!-- /Footer Top -->
-				
-				<!-- Footer Bottom -->
-			    <div class="footer-bottom">
-					<div class="container-fluid">
-					
-						<!-- Copyright -->
-						<div class="copyright">
-							<div class="row">
-								<div class="col-12 text-center">
-									<div class="copyright-text">
-										<p class="mb-0">&copy; 2020 Tutorly. All rights reserved.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- /Copyright -->
-						
-					</div>
-				</div>
-				<!-- /Footer Bottom -->
-				
-			</footer>
-			<!-- /Footer -->
-		   
+
+
+
 		</div>
-		<!-- /Main Wrapper -->
-	  
-		<!-- jQuery -->
-		<script src="assets/js/jquery-3.6.0.min.js"></script>
-		
-		<!-- Bootstrap Core JS -->
-		<script src="assets/js/bootstrap.bundle.min.js"></script>
-		
-		<!-- Custom JS -->
-		<script src="assets/js/script.js"></script>
-		
-	</body>
-</html>
+							<!-- /Main Wrapper -->

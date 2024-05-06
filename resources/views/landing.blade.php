@@ -1,21 +1,21 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		<title>Tutorly</title>
-		
+
 		<!-- Favicon -->
 		<link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
-		
+
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
+
 		<!-- Fontawesome CSS -->
 		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
-		
+		<link rel="stylesheet" href="assetsg/plugins/fontawesome/css/all.min.css">
+
 		<!-- Select2 CSS -->
 		<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
 
@@ -34,7 +34,7 @@
 
 		<!-- Main Wrapper -->
 		<div class="main-wrapper">
-		
+
 			<!-- Header -->
 			<header class="header-eight min-header">
 				<div class="header-fixed header-fixed-wrap">
@@ -137,15 +137,15 @@
 										<li><a href="{{route('home')}}">Blog Grid</a></li>
 										<li><a href="{{route('home')}}">Blog Details</a></li>
 									</ul>
-								</li>						
+								</li>
 								<li class="login-link">
 									<a href="login.html">Login</a>
-								</li>						
+								</li>
 								<li class="login-link">
 									<a href="register login.html">Register</a>
 								</li>
-							</ul>		 
-						</div>		 
+							</ul>
+						</div>
 						<ul class="nav header-navbar-rht header-navbar-rht-eight">
 							<li class="nav-item">
 								<a class="nav-link btn btn-register" href="register.html"><i class="fas fa-sign-in-alt"></i> Sign up</a>
@@ -155,10 +155,10 @@
 							</li>
 						</ul>
 					</nav>
-				</div>	
+				</div>
 			</header>
 			<!-- /Header -->
-			
+
 			<!-- Home Banner -->
 			<section class="section section-search-eight">
 				<div class="container">
@@ -167,7 +167,7 @@
 							<h1>Search Teacher in <span>Tutorly</span> Appointment</h1>
 							<p>Discover the best Mentors & institutions the city nearest to you.</p>
 						</div>
-                         
+
 						<!-- Search -->
 						<div class="search-box-eight aos" data-aos="fade-up">
 							<form action="search.html">
@@ -191,7 +191,7 @@
 							</form>
 						</div>
 						<!-- /Search -->
-						
+
 					</div>
 				</div>
 			</section>
@@ -212,12 +212,12 @@
 					</div>
 					<div class="row justify-content-center feature-list">
 						<div class="col-12 col-md-4 col-lg-3 aos" data-aos="fade-up">
-							<div class="feature-grid text-center top-box">					
+							<div class="feature-grid text-center top-box">
 								<div class="feature-header-eight">
 									<div class="feature-icon-eight">
 										<span class="circle bg-green"><i class="fas fa-sign-in-alt"></i></span>
-									</div>		
-									<div class="feature-cont">	
+									</div>
+									<div class="feature-cont">
 										<div class="feature-text-eight">Sign up</div>
 									</div>
 								</div>
@@ -226,11 +226,11 @@
 							</div>
 						</div>
 						<div class="col-12 col-md-4 col-lg-3 offset-lg-1 aos" data-aos="fade-up">
-							<div class="feature-grid text-center">					
+							<div class="feature-grid text-center">
 								<div class="feature-header-eight">
 									<div class="feature-icon-eight">
 										<span class="circle bg-blue"><i class="material-icons">accessibility</i></span>
-									</div>	
+									</div>
 									<div class="feature-cont">
 										<div class="feature-text-eight">Collaborate</div>
 									</div>
@@ -240,11 +240,11 @@
 							</div>
 						</div>
 						<div class="col-12 col-md-4 col-lg-3 offset-lg-1 aos" data-aos="fade-up">
-							<div class="feature-grid text-center top-box">					
+							<div class="feature-grid text-center top-box">
 								<div class="feature-header-eight">
 									<div class="feature-icon-eight">
 										<span class="circle bg-orange"><i class="material-icons">event_seat</i></span>
-									</div>	
+									</div>
 									<div class="feature-cont">
 										<div class="feature-text-eight">Improve & Get Back</div>
 									</div>
@@ -252,7 +252,7 @@
 								<p>you can gather different skill set, and you can become mentor too</p>
 								<span class="text-orange">03</span>
 							</div>
-						</div>						
+						</div>
 					</div>
 				</div>
 			</section>
@@ -277,7 +277,7 @@
 				<div class="mendor-list">
 					<div class="container aos" data-aos="fade-up">
 						<div class="mendor-slider slick">
-						
+
 							<!-- Mentor Item -->
 							<div class="mendor-box">
 								<div class="mendor-img">
@@ -291,9 +291,9 @@
 									<div class="mendor-course">
 										Fullstack Programmer
 									</div>
-									<div class="mendor-price-list">									
+									<div class="mendor-price-list">
 										<div class="mendor-price">Rp 200.000 <span>/ hr</span></div>
-										<div class="mendor-rating">							
+										<div class="mendor-rating">
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
@@ -304,7 +304,7 @@
 								</div>
 							</div>
 							<!-- /Mentor Item -->
-							
+
 							<!-- Mentor Item -->
 							<div class="mendor-box">
 								<div class="mendor-img">
@@ -318,9 +318,9 @@
 									<div class="mendor-course">
 										UNIX, Calculus, Trigonometry
 									</div>
-									<div class="mendor-price-list">									
+									<div class="mendor-price-list">
 										<div class="mendor-price">Rp 500.000 <span>/ hr</span></div>
-										<div class="mendor-rating">							
+										<div class="mendor-rating">
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
@@ -331,7 +331,7 @@
 								</div>
 							</div>
 							<!-- /Mentor Item -->
-							
+
 							<!-- Mentor Item -->
 							<div class="mendor-box">
 								<div class="mendor-img">
@@ -345,9 +345,9 @@
 									<div class="mendor-course">
 										ASP.NET,Computer Gaming
 									</div>
-									<div class="mendor-price-list">									
+									<div class="mendor-price-list">
 										<div class="mendor-price">Rp 300.000 <span>/ hr</span></div>
-										<div class="mendor-rating">							
+										<div class="mendor-rating">
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
@@ -358,7 +358,7 @@
 								</div>
 							</div>
 							<!-- /Mentor Item -->
-							
+
 							<!-- Mentor Item -->
 							<div class="mendor-box">
 								<div class="mendor-img">
@@ -372,9 +372,9 @@
 									<div class="mendor-course">
 										Computer Programming
 									</div>
-									<div class="mendor-price-list">									
+									<div class="mendor-price-list">
 										<div class="mendor-price">Rp 300.000 <span>/ hr</span></div>
-										<div class="mendor-rating">							
+										<div class="mendor-rating">
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
@@ -385,7 +385,7 @@
 								</div>
 							</div>
 							<!-- /Mentor Item -->
-							
+
 							<!-- Mentor Item -->
 							<div class="mendor-box">
 								<div class="mendor-img">
@@ -399,9 +399,9 @@
 									<div class="mendor-course">
 										Digital Marketer
 									</div>
-									<div class="mendor-price-list">									
+									<div class="mendor-price-list">
 										<div class="mendor-price">Rp 400.000 <span>/ hr</span></div>
-										<div class="mendor-rating">							
+										<div class="mendor-rating">
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
@@ -412,7 +412,7 @@
 								</div>
 							</div>
 							<!-- /Mentor Item -->
-							
+
 						</div>
 					</div>
 				</div>
@@ -453,7 +453,7 @@
 								</div>
 							</div>
 							<!-- /Course Item -->
-							
+
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
@@ -471,7 +471,7 @@
 								</div>
 							</div>
 							<!-- /Course Item -->
-							
+
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
@@ -490,7 +490,7 @@
 								</div>
 							</div>
 							<!-- /Course Item -->
-							
+
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
@@ -509,7 +509,7 @@
 								</div>
 							</div>
 							<!-- /Course Item -->
-							
+
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
@@ -528,7 +528,7 @@
 								</div>
 							</div>
 							<!-- /Course Item -->
-							
+
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
@@ -547,7 +547,7 @@
 								</div>
 							</div>
 							<!-- /Course Item -->
-							
+
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
@@ -566,7 +566,7 @@
 								</div>
 							</div>
 							<!-- /Course Item -->
-							
+
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
@@ -585,11 +585,11 @@
 								</div>
 							</div>
 							<!-- /Course Item -->
-							
+
 						</div>
 						<div class="view-all text-center aos" data-aos="fade-up">
 							<a href="search.html" class="btn btn-primary btn-view">View All</a>
-						</div>						
+						</div>
 					</div>
 				</div>
 			</section>
@@ -624,7 +624,7 @@
 									</div>
 								</div>
 								<div class="profile-rating">
-									<div class="mendor-rating">							
+									<div class="mendor-rating">
 										<i class="fas fa-star filled"></i>
 										<i class="fas fa-star filled"></i>
 										<i class="fas fa-star filled"></i>
@@ -636,7 +636,7 @@
 							</div>
 						</div>
 						<!-- /Profile Item -->
-						
+
 						<!-- Profile Item -->
 						<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 							<div class="profile-list">
@@ -650,7 +650,7 @@
 									</div>
 								</div>
 								<div class="profile-rating">
-									<div class="mendor-rating">							
+									<div class="mendor-rating">
 										<i class="fas fa-star filled"></i>
 										<i class="fas fa-star filled"></i>
 										<i class="fas fa-star filled"></i>
@@ -662,7 +662,7 @@
 							</div>
 						</div>
 						<!-- /Profile Item -->
-						
+
 						<!-- Profile Item -->
 						<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 							<div class="profile-list">
@@ -676,7 +676,7 @@
 									</div>
 								</div>
 								<div class="profile-rating">
-									<div class="mendor-rating">							
+									<div class="mendor-rating">
 										<i class="fas fa-star filled"></i>
 										<i class="fas fa-star filled"></i>
 										<i class="fas fa-star filled"></i>
@@ -688,7 +688,7 @@
 							</div>
 						</div>
 						<!-- /Profile Item -->
-						
+
 						<!-- Profile Item -->
 						<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 							<div class="profile-list">
@@ -702,7 +702,7 @@
 									</div>
 								</div>
 								<div class="profile-rating">
-									<div class="mendor-rating">							
+									<div class="mendor-rating">
 										<i class="fas fa-star filled"></i>
 										<i class="fas fa-star filled"></i>
 										<i class="fas fa-star filled"></i>
@@ -764,7 +764,7 @@
 			<!-- Blog Section -->
 		   <section class="section section-blogs-eight">
 				<div class="container">
-				
+
 					<!-- Section Header -->
 					<div class="section-header-eight text-center aos" data-aos="fade-up">
 						<span>LATEST</span>
@@ -777,10 +777,10 @@
 						</div>
 					</div>
 					<!-- /Section Header -->
-					
+
 					<div class="row blog-grid-row justify-content-center">
 						<div class="col-md-6 col-lg-4 col-sm-12 aos" data-aos="fade-up">
-						
+
 							<!-- Blog Post -->
 							<div class="blog-card">
 								<div class="blog-card-image">
@@ -793,7 +793,7 @@
 											<div class="post-author-eight">
 												<a href="blog-details.html"><span>Tyrone Roberts</span></a>
 											</div>
-										</li>										
+										</li>
 									</ul>
 									<h3 class="blog-title-eight"><a href="blog-details.html">What is Lorem Ipsum? Lorem Ipsum is simply</a></h3>
 									<p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
@@ -801,11 +801,11 @@
 								</div>
 							</div>
 							<!-- /Blog Post -->
-							
+
 						</div>
-						
+
 						<div class="col-md-6 col-lg-4 col-sm-12 aos" data-aos="fade-up">
-						
+
 							<!-- Blog Post -->
 							<div class="blog-card">
 								<div class="blog-card-image">
@@ -818,7 +818,7 @@
 											<div class="post-author-eight">
 												<a href="blog-details.html"><span>Brittany Garcia</span></a>
 											</div>
-										</li>										
+										</li>
 									</ul>
 									<h3 class="blog-title-eight"><a href="blog-details.html">Contrary to popular belief, Lorem Ipsum is</a></h3>
 									<p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
@@ -826,11 +826,11 @@
 								</div>
 							</div>
 							<!-- /Blog Post -->
-							
+
 						</div>
-						
+
 						<div class="col-md-6 col-lg-4 col-sm-12 aos" data-aos="fade-up">
-						
+
 							<!-- Blog Post -->
 							<div class="blog-card">
 								<div class="blog-card-image">
@@ -843,7 +843,7 @@
 											<div class="post-author-eight">
 												<a href="blog-details.html"><span>Allen Davis</span></a>
 											</div>
-										</li>										
+										</li>
 									</ul>
 									<h3 class="blog-title-eight"><a href="blog-details.html">The standard chunk of Lorem Ipsum used</a></h3>
 									<p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
@@ -851,10 +851,10 @@
 								</div>
 							</div>
 							<!-- /Blog Post -->
-							
+
 						</div>
 					</div>
-					<div class="view-all text-center aos" data-aos="fade-up"> 
+					<div class="view-all text-center aos" data-aos="fade-up">
 						<a href="blog-list.html" class="btn btn-primary btn-view">View All</a>
 					</div>
 				</div>
@@ -863,13 +863,13 @@
 
 			<!-- Footer -->
 			<footer class="footer footer-eight">
-				
+
 				<!-- Footer Top -->
 				<div class="footer-top aos" data-aos="fade-up">
 					<div class="container-fluid">
 						<div class="row">
-						
-							<div class="col-lg-3 col-md-6">							
+
+							<div class="col-lg-3 col-md-6">
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-about">
 									<div class="footer-logo">
@@ -879,10 +879,10 @@
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 									</div>
 								</div>
-								<!-- /Footer Widget -->								
+								<!-- /Footer Widget -->
 							</div>
-							
-							<div class="col-lg-3 col-md-6">							
+
+							<div class="col-lg-3 col-md-6">
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Mentee</h2>
@@ -894,10 +894,10 @@
 										<li><a href="dashboard-mentee.html">Mentee Dashboard</a></li>
 									</ul>
 								</div>
-								<!-- /Footer Widget -->								
+								<!-- /Footer Widget -->
 							</div>
-							
-							<div class="col-lg-3 col-md-6">							
+
+							<div class="col-lg-3 col-md-6">
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Mentors</h2>
@@ -909,10 +909,10 @@
 										<li><a href="dashboard.html">Mentor Dashboard</a></li>
 									</ul>
 								</div>
-								<!-- /Footer Widget -->								
+								<!-- /Footer Widget -->
 							</div>
-							
-							<div class="col-lg-3 col-md-6">							
+
+							<div class="col-lg-3 col-md-6">
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-contact">
 									<h2 class="footer-title">Contact Us</h2>
@@ -928,17 +928,17 @@
 										</p>
 									</div>
 								</div>
-								<!-- /Footer Widget -->								
+								<!-- /Footer Widget -->
 							</div>
-							
+
 						</div>
 					</div>
 				</div>
 				<!-- /Footer Top -->
-				
+
 				<!-- Footer Bottom -->
                 <div class="footer-bottom">
-					<div class="container-fluid">					
+					<div class="container-fluid">
 						<!-- Copyright -->
 						<div class="copyright">
 							<div class="row">
@@ -947,7 +947,7 @@
 										<p class="mb-0">&copy; 2022 Tutorly. All rights reserved.</p>
 									</div>
 								</div>
-								<div class="col-md-6">									
+								<div class="col-md-6">
 									<div class="social-icon text-md-end">
 										<ul>
 											<li>
@@ -964,23 +964,23 @@
 								</div>
 							</div>
 						</div>
-						<!-- /Copyright -->						
+						<!-- /Copyright -->
 					</div>
 				</div>
 				<!-- /Footer Bottom -->
-				
+
 			</footer>
 			<!-- /Footer -->
-		   
+
 	   </div>
 	   <!-- /Main Wrapper -->
-	  
+
 		<!-- jQuery -->
 		<script src="assets/js/jquery-3.6.0.min.js"></script>
-		
+
 		<!-- Bootstrap Bundle JS -->
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
-		
+
 		<!-- Select2 JS -->
 		<script src="assets/plugins/select2/js/select2.min.js"></script>
 
@@ -989,9 +989,9 @@
 
 		<!-- Aos JS -->
 		<script src="assets/plugins/aos/aos.js"></script>
-		
+
 		<!-- Custom JS -->
 		<script src="assets/js/script.js"></script>
-		
+
 	</body>
 </html>
