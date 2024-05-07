@@ -46,11 +46,11 @@
                     <div class="footer-widget footer-menu">
                         <h2 class="footer-title">For Mentee</h2>
                         <ul>
-                            <li><a href="search.html">Search Mentors</a></li>
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="register.html">Register</a></l i>
-                            <li><a href="booking.html">Booking</a></li>
-                            <li><a href="dashboard-mentee.html">Mentee Dashboard</a></li>
+                            <li><a href="{{ route('home') }}">Search Mentors</a></li>
+                            <li><a href="{{ route('home') }}">Login</a></li>
+                            <li><a href="{{ route('home') }}">Register</a></l i>
+                            <li><a href="{{ route('home') }}">Booking</a></li>
+                            <li><a href="{{ route('home') }}">Mentee Dashboard</a></li>
                         </ul>
                     </div>
                     <!-- /Footer Widget -->
@@ -63,11 +63,11 @@
                     <div class="footer-widget footer-menu">
                         <h2 class="footer-title">For Mentors</h2>
                         <ul>
-                            <li><a href="appointments.html">Appointments</a></li>
-                            <li><a href="chat.html">Chat</a></li>
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="register.html">Register</a></li>
-                            <li><a href="dashboard.html">Mentor Dashboard</a></li>
+                            <li><a href="{{ route('home') }}">Appointments</a></li>
+                            <li><a href="{{ route('home') }}l">Chat</a></li>
+                            <li><a href="{{ route('home') }}">Login</a></li>
+                            <li><a href="{{ route('home') }}">Register</a></li>
+                            <li><a href="{{ route('home') }}">Mentor Dashboard</a></li>
                         </ul>
                     </div>
                     <!-- /Footer Widget -->

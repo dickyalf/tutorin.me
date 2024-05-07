@@ -8,7 +8,7 @@
                 <div class="col-md-12 col-12">
                     <nav aria-label="breadcrumb" class="page-breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Checkout</li>
                         </ol>
                     </nav>
@@ -159,11 +159,11 @@
 
                             <!-- Booking Mentee Info -->
                             <div class="booking-user-info">
-                                <a href="profile.html" class="booking-user-img">
+                                <a href="{{ route('profile') }}" class="booking-user-img">
                                     <img src="assets/img/user/user2.jpg" alt="User Image">
                                 </a>
                                 <div class="booking-info">
-                                    <h4><a href="profile.html">Willas Rorrong</a></h4>
+                                    <h4><a href="{{ route('profile') }}">Willas Rorrong</a></h4>
                                     <div class="rating">
                                         <i class="fas fa-star filled"></i>
                                         <i class="fas fa-star filled"></i>
@@ -212,7 +212,7 @@
 
     </div>
     <!-- /Page Content -->
-
+@endsection
     <!-- /Main Wrapper -->
 
-   
+

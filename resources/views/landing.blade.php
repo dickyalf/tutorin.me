@@ -47,13 +47,13 @@
 									<span></span>
 								</span>
 							</a>
-							<a href="index.html" class="navbar-brand navbar-brand-eight logo">
+							<a href="{{ route('home') }}" class="navbar-brand navbar-brand-eight logo">
 								<img src="assets/img/tutorly.png" class="img-fluid" alt="Logo">
 							</a>
 						</div>
 						<div class="main-menu-wrapper main-menu-wrapper-eight">
 							<div class="menu-header menu-header-eight">
-								<a href="index.html" class="menu-logo">
+								<a href="{{ route('home') }}" class="menu-logo">
 									<img src="assets/img/tutorly.png" class="img-fluid" alt="Logo">
 								</a>
 								<a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -139,19 +139,19 @@
 									</ul>
 								</li>
 								<li class="login-link">
-									<a href="login.html">Login</a>
+									<a href="{{ route('home') }}">Login</a>
 								</li>
 								<li class="login-link">
-									<a href="register login.html">Register</a>
+									<a href="{{ route('home') }}">Register</a>
 								</li>
 							</ul>
 						</div>
 						<ul class="nav header-navbar-rht header-navbar-rht-eight">
 							<li class="nav-item">
-								<a class="nav-link btn btn-register" href="register.html"><i class="fas fa-sign-in-alt"></i> Sign up</a>
+								<a class="nav-link btn btn-register" href="{{ route('home') }}"><i class="fas fa-sign-in-alt"></i> Sign up</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link btn btn-login" href="login.html"><i class="fas fa-lock"></i> Sign in</a>
+								<a class="nav-link btn btn-login" href="{{ route('home') }}"><i class="fas fa-lock"></i> Sign in</a>
 							</li>
 						</ul>
 					</nav>
@@ -170,7 +170,7 @@
 
 						<!-- Search -->
 						<div class="search-box-eight aos" data-aos="fade-up">
-							<form action="search.html">
+							<form action="{{ route('home') }}">
 								<div class="form-search">
 									<div class="form-inner">
 										<div class="form-group search-location-eight">
@@ -439,7 +439,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="search.html" class="course-img">
+									<a href="{{ route('home') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-01.jpg" alt="learn">
 											<div class="course-text">
@@ -457,7 +457,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="search.html" class="course-img">
+									<a href="{{ route('home') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-02.jpg" alt="learn">
 											<div class="course-text">
@@ -475,7 +475,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="search.html" class="course-img">
+									<a href="{{ route('home') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-03.jpg" alt="learn">
 											<div class="course-text">
@@ -494,7 +494,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="search.html" class="course-img">
+									<a href="{{ route('home') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-04.jpg" alt="learn">
 											<div class="course-text">
@@ -513,7 +513,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="search.html" class="course-img">
+									<a href="{{ route('home') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-05.jpg" alt="learn">
 											<div class="course-text">
@@ -532,7 +532,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="search.html" class="course-img">
+									<a href="{{ route('home') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-06.jpg" alt="learn">
 											<div class="course-text">
@@ -551,7 +551,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="search.html" class="course-img">
+									<a href="{{ route('home') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-07.jpg" alt="learn">
 											<div class="course-text">
@@ -570,7 +570,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="search.html" class="course-img">
+									<a href="{{ route('home') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-08.jpg" alt="learn">
 											<div class="course-text">
@@ -588,7 +588,7 @@
 
 						</div>
 						<div class="view-all text-center aos" data-aos="fade-up">
-							<a href="search.html" class="btn btn-primary btn-view">View All</a>
+							<a href="{{ route('home') }}" class="btn btn-primary btn-view">View All</a>
 						</div>
 					</div>
 				</div>
@@ -784,20 +784,20 @@
 							<!-- Blog Post -->
 							<div class="blog-card">
 								<div class="blog-card-image">
-									<a href="blog-details.html"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-01.jpg" alt="Post Image"></a>
+									<a href="{{ route('home') }}"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-01.jpg" alt="Post Image"></a>
 								</div>
 								<div class="blog-card-content">
 									<div class="blog-month">04 <span>Dec</span></div>
 									<ul class="meta-item-eight">
 										<li>
 											<div class="post-author-eight">
-												<a href="blog-details.html"><span>Tyrone Roberts</span></a>
+												<a href="{{ route('home') }}"><span>Tyrone Roberts</span></a>
 											</div>
 										</li>
 									</ul>
-									<h3 class="blog-title-eight"><a href="blog-details.html">What is Lorem Ipsum? Lorem Ipsum is simply</a></h3>
+									<h3 class="blog-title-eight"><a href="{{ route('home') }}">What is Lorem Ipsum? Lorem Ipsum is simply</a></h3>
 									<p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
-									<a href="blog-details.html" class="read">Read more</a>
+									<a href="{{ route('home') }}" class="read">Read more</a>
 								</div>
 							</div>
 							<!-- /Blog Post -->
@@ -809,20 +809,20 @@
 							<!-- Blog Post -->
 							<div class="blog-card">
 								<div class="blog-card-image">
-									<a href="blog-details.html"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-16.jpg" alt="Post Image"></a>
+									<a href="{{route('home')}}"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-16.jpg" alt="Post Image"></a>
 								</div>
 								<div class="blog-card-content">
 									<div class="blog-month">05 <span>Jan</span></div>
 									<ul class="meta-item-eight">
 										<li>
 											<div class="post-author-eight">
-												<a href="blog-details.html"><span>Brittany Garcia</span></a>
+												<a href="{{route('home')}}"><span>Brittany Garcia</span></a>
 											</div>
 										</li>
 									</ul>
-									<h3 class="blog-title-eight"><a href="blog-details.html">Contrary to popular belief, Lorem Ipsum is</a></h3>
+									<h3 class="blog-title-eight"><a href="{{route('home')}}">Contrary to popular belief, Lorem Ipsum is</a></h3>
 									<p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
-									<a href="blog-details.html" class="read">Read more</a>
+									<a href="{{route('home')}}" class="read">Read more</a>
 								</div>
 							</div>
 							<!-- /Blog Post -->
@@ -834,20 +834,20 @@
 							<!-- Blog Post -->
 							<div class="blog-card">
 								<div class="blog-card-image">
-									<a href="blog-details.html"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-17.jpg" alt="Post Image"></a>
+									<a href="{{route('home')}}"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-17.jpg" alt="Post Image"></a>
 								</div>
 								<div class="blog-card-content">
 									<div class="blog-month">06 <span>May</span></div>
 									<ul class="meta-item-eight">
 										<li>
 											<div class="post-author-eight">
-												<a href="blog-details.html"><span>Allen Davis</span></a>
+												<a href="{{route('home')}}"><span>Allen Davis</span></a>
 											</div>
 										</li>
 									</ul>
-									<h3 class="blog-title-eight"><a href="blog-details.html">The standard chunk of Lorem Ipsum used</a></h3>
+									<h3 class="blog-title-eight"><a href="{{route('home')}}">The standard chunk of Lorem Ipsum used</a></h3>
 									<p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
-									<a href="blog-details.html" class="read">Read more</a>
+									<a href="{{route('home')}}" class="read">Read more</a>
 								</div>
 							</div>
 							<!-- /Blog Post -->
@@ -855,7 +855,7 @@
 						</div>
 					</div>
 					<div class="view-all text-center aos" data-aos="fade-up">
-						<a href="blog-list.html" class="btn btn-primary btn-view">View All</a>
+						<a href="{{route('home')}}" class="btn btn-primary btn-view">View All</a>
 					</div>
 				</div>
 			</section>
@@ -887,11 +887,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Mentee</h2>
 									<ul>
-										<li><a href="search.html">Search Mentors</a></li>
-										<li><a href="login.html">Login</a></li>
-										<li><a href="register.html">Register</a></li>
-										<li><a href="booking.html">Booking</a></li>
-										<li><a href="dashboard-mentee.html">Mentee Dashboard</a></li>
+										<li><a href="{{route('home')}}">Search Mentors</a></li>
+										<li><a href="{{route('home')}}">Login</a></li>
+										<li><a href="{{route('home')}}">Register</a></li>
+							    			<li><a href="{{route('home')}}">Booking</a></li>
+										<li><a href="{{route('home')}}">Mentee Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -902,11 +902,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Mentors</h2>
 									<ul>
-										<li><a href="appointments.html">Appointments</a></li>
-										<li><a href="chat.html">Chat</a></li>
-										<li><a href="login.html">Login</a></li>
-										<li><a href="register.html">Register</a></li>
-										<li><a href="dashboard.html">Mentor Dashboard</a></li>
+										<li><a href="{{ route('home') }}">Appointments</a></li>
+										<li><a href="{{ route('home') }}">Chat</a></li>
+										<li><a href="{{ route('home') }}">Login</a></li>
+										<li><a href="{{ route('home') }}">Register</a></li>
+										<li><a href="{{ route('home') }}">Mentor Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
