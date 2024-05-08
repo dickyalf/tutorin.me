@@ -30,7 +30,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="invoice-logo">
-                                        <img src="assets/img/tutorly.png" alt="logo">
+                                        <img src="assets/img/tutorin-logo-last.jpg" alt="logo">
                                     </div>
                                 </div>
                                 <div class="col-md-6">

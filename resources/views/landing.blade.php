@@ -7,7 +7,7 @@
 		<title>Tutorly</title>
 
 		<!-- Favicon -->
-		<link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+		<link rel="icon" href="assets/img/tutorin-logo.png" type="image/x-icon">
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -48,13 +48,13 @@
 								</span>
 							</a>
 							<a href="{{ route('home') }}" class="navbar-brand navbar-brand-eight logo">
-								<img src="assets/img/tutorly.png" class="img-fluid" alt="Logo">
+								<img src="assets/img/tutorin-logo-last.jpg" class="img-fluid" alt="Logo">
 							</a>
 						</div>
 						<div class="main-menu-wrapper main-menu-wrapper-eight">
 							<div class="menu-header menu-header-eight">
 								<a href="{{ route('home') }}" class="menu-logo">
-									<img src="assets/img/tutorly.png" class="img-fluid" alt="Logo">
+									<img src="assets/img/tutorin-logo-last.jpg" class="img-fluid" alt="Logo">
 								</a>
 								<a id="menu_close" class="menu-close" href="javascript:void(0);">
 									<i class="fas fa-times"></i>
@@ -873,7 +873,7 @@
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-about">
 									<div class="footer-logo">
-										<img src="assets/img/tutorly.png" alt="logo">
+										<img src="assets/img/tutorin-logo-last.jpg" alt="logo">
 									</div>
 									<div class="footer-about-content">
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
