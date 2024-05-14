@@ -10,13 +10,13 @@
                         <span></span>
                     </span>
                 </a>
-                <a href="{{ route('home') }}" class="navbar-brand logo">
+                <a href="{{ route('homepage') }}" class="navbar-brand logo">
                     <img src="assets/img/tutorin-logo-last.jpg" class="img-fluid" alt="Logo">
                 </a>
             </div>
             <div class="main-menu-wrapper">
                 <div class="menu-header">
-                    <a href="{{ route('home') }}" class="menu-logo">
+                    <a href="{{ route('homepage') }}" class="menu-logo">
                         <img src="assets/img/tutorin-logo-last.jpg" class="img-fluid" alt="Logo">
                     </a>
                     <a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -25,30 +25,30 @@
                 </div>
                 <ul class="main-nav">
                     <li>
-                        <a href="{{ route('home') }}">Beranda</a>
+                        <a href="{{ route('homepage') }}">Beranda</a>
                     </li>
                     {{-- <li class="has-submenu">
                         <a href="">Mentor <i class="fas fa-chevron-circle-down"></i></a>
                         <ul class="submenu">
-                            <li><a href="{{ route('home') }}">Mentor Dashboard</a></li>
-                            <li><a href="{{ route('home') }}">Bookings</a></li>
-                            <li><a href="{{ route('home') }}">Schedule Timing</a></li>
-                            <li><a href="{{ route('home') }}">Mentee List</a></li>
-                            <li><a href="{{ route('home') }}">Mentee Profile</a></li>
+                            <li><a href="{{ route('homepage') }}">Mentor Dashboard</a></li>
+                            <li><a href="{{ route('homepage') }}">Bookings</a></li>
+                            <li><a href="{{ route('homepage') }}">Schedule Timing</a></li>
+                            <li><a href="{{ route('homepage') }}">Mentee List</a></li>
+                            <li><a href="{{ route('homepage') }}">Mentee Profile</a></li>
                             <li class="has-submenu">
-                                <a href="{{ route('home') }}">Blog</a>
+                                <a href="{{ route('homepage') }}">Blog</a>
                                 <ul class="submenu">
-                                    <li><a href="{{ route('home') }}">Blog</a></li>
-                                    <li><a href="{{ route('home') }}">Blog View</a></li>
-                                    <li><a href="{{ route('home') }}">Add Blog</a></li>
-                                    <li><a href="{{ route('home') }}">Edit Blog</a></li>
+                                    <li><a href="{{ route('homepage') }}">Blog</a></li>
+                                    <li><a href="{{ route('homepage') }}">Blog View</a></li>
+                                    <li><a href="{{ route('homepage') }}">Add Blog</a></li>
+                                    <li><a href="{{ route('homepage') }}">Edit Blog</a></li>
                                 </ul>
                             </li>
-                            <li><a href="{{ route('home') }}">Chat</a></li>
-                            <li><a href="{{ route('home') }}">Invoices</a></li>
-                            <li><a href="{{ route('home') }}">Profile Settings</a></li>
-                            <li><a href="{{ route('home') }}">Reviews</a></li>
-                            <li><a href="{{ route('home') }}">Mentor Register</a></li>
+                            <li><a href="{{ route('homepage') }}">Chat</a></li>
+                            <li><a href="{{ route('homepage') }}">Invoices</a></li>
+                            <li><a href="{{ route('homepage') }}">Profile Settings</a></li>
+                            <li><a href="{{ route('homepage') }}">Reviews</a></li>
+                            <li><a href="{{ route('homepage') }}">Mentor Register</a></li>
                         </ul>
                     </li>
                     <li class="has-submenu">
@@ -57,48 +57,48 @@
                             <li class="has-submenu">
                                 <a href="#">Mentors</a>
                                 <ul class="submenu">
-                                    <li><a href="{{ route('home') }}">Map Grid</a></li>
-                                    <li><a href="{{ route('home') }}">Map List</a></li>
+                                    <li><a href="{{ route('homepage') }}">Map Grid</a></li>
+                                    <li><a href="{{ route('homepage') }}">Map List</a></li>
                                 </ul>
                             </li>
-                            <li><a href="{{ route('home') }}">Search Mentor</a></li>
-                            <li><a href="{{ route('home') }}">Mentor Profile</a></li>
-                            <li><a href="{{ route('home') }}">Bookings</a></li>
-                            <li><a href="{{ route('home') }}">Checkout</a></li>
-                            <li><a href="{{ route('home') }}">Booking Success</a></li>
-                            <li><a href="{{ route('home') }}">Mentee Dashboard</a></li>
-                            <li><a href="{{ route('home') }}">Favourites</a></li>
-                            <li><a href="{{ route('home') }}">Chat</a></li>
-                            <li><a href="{{ route('home') }}">Profile Settings</a></li>
-                            <li><a href="{{ route('home') }}">Change Password</a></li>
+                            <li><a href="{{ route('homepage') }}">Search Mentor</a></li>
+                            <li><a href="{{ route('homepage') }}">Mentor Profile</a></li>
+                            <li><a href="{{ route('homepage') }}">Bookings</a></li>
+                            <li><a href="{{ route('homepage') }}">Checkout</a></li>
+                            <li><a href="{{ route('homepage') }}">Booking Success</a></li>
+                            <li><a href="{{ route('homepage') }}">Mentee Dashboard</a></li>
+                            <li><a href="{{ route('homepage') }}">Favourites</a></li>
+                            <li><a href="{{ route('homepage') }}">Chat</a></li>
+                            <li><a href="{{ route('homepage') }}">Profile Settings</a></li>
+                            <li><a href="{{ route('homepage') }}">Change Password</a></li>
                         </ul>
                     </li> --}}
                     <li class="has-submenu">
                         <a href="">Halaman <i class="fas fa-chevron-circle-down"></i></a>
                         <ul class="submenu">
-                            <li><a href="{{route('home')}}">Voice Call</a></li>
-                            <li><a href="{{route('home')}}">Video Call</a></li>
-                            <li><a href="{{route('home')}}">Cari Tutor</a></li>
-                            {{-- <li><a href="{{route('home')}}">Komponen</a></li> --}}
+                            <li><a href="{{route('homepage')}}">Voice Call</a></li>
+                            <li><a href="{{route('homepage')}}">Video Call</a></li>
+                            <li><a href="{{route('homepage')}}">Cari Tutor</a></li>
+                            {{-- <li><a href="{{route('homepage')}}">Komponen</a></li> --}}
                             <li class="has-submenu">
-                                <a href="{{route('home')}}">Nota pembayaran</a>
+                                <a href="{{route('homepage')}}">Nota pembayaran</a>
                                 <ul class="submenu">
-                                    <li><a href="{{route('home')}}">Semua nota</a></li>
-                                    <li><a href="{{route('home')}}">Jadwal booking</a></li>
+                                    <li><a href="{{route('homepage')}}">Semua nota</a></li>
+                                    <li><a href="{{route('homepage')}}">Jadwal booking</a></li>
                                 </ul>
                             </li>
-                            <li><a href="{{route('home')}}">Halaman Utama</a></li>
-                            <li><a href="{{route('home')}}">Login</a></li>
-                            <li><a href="{{route('home')}}">Daftar</a></li>
-                            <li><a href="{{route('home')}}">Lupa Password</a></li>
+                            <li><a href="{{route('homepage')}}">Halaman Utama</a></li>
+                            <li><a href="{{route('homepage')}}">Login</a></li>
+                            <li><a href="{{route('homepage')}}">Daftar</a></li>
+                            <li><a href="{{route('homepage')}}">Lupa Password</a></li>
                         </ul>
                     </li>
                     {{-- <li class="has-submenu">
                         <a href="">Blog <i class="fas fa-chevron-circle-down"></i></a>
                         <ul class="submenu">
-                            <li><a href="{{ route('home') }}">Blog List</a></li>
-                            <li><a href="{{ route('home') }}">Blog Grid</a></li>
-                            <li><a href="{{ route('home') }}">Blog Details</a></li>
+                            <li><a href="{{ route('homepage') }}">Blog List</a></li>
+                            <li><a href="{{ route('homepage') }}">Blog Grid</a></li>
+                            <li><a href="{{ route('homepage') }}">Blog Details</a></li>
                         </ul>
                     </li> --}}
                 </ul>

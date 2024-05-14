@@ -47,13 +47,13 @@
 									<span></span>
 								</span>
 							</a>
-							<a href="{{ route('home') }}" class="navbar-brand navbar-brand-eight logo">
+							<a href="{{ route('homepage') }}" class="navbar-brand navbar-brand-eight logo">
 								<img src="assets/img/tutorin-logo-last.jpg" class="img-fluid" alt="Logo">
 							</a>
 						</div>
 						<div class="main-menu-wrapper main-menu-wrapper-eight">
 							<div class="menu-header menu-header-eight">
-								<a href="{{ route('home') }}" class="menu-logo">
+								<a href="{{ route('homepage') }}" class="menu-logo">
 									<img src="assets/img/tutorin-logo-last.jpg" class="img-fluid" alt="Logo">
 								</a>
 								<a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -62,30 +62,30 @@
 							</div>
 							<ul class="main-nav main-nav-eight">
                                 <li>
-									<a href="{{route('home')}}">Beranda</a>
+									<a href="{{route('homepage')}}">Beranda</a>
 								</li>
 								{{-- <li class="has-submenu">
 									<a href="">Mentor <i class="fas fa-chevron-circle-down"></i></a>
 									<ul class="submenu">
-										<li><a href="{{route('home')}}">Mentor Dashboard</a></li>
-										<li><a href="{{route('home')}}">Bookings</a></li>
-										<li><a href="{{route('home')}}">Schedule Timing</a></li>
-										<li><a href="{{route('home')}}">Mentee List</a></li>
-										<li><a href="{{route('home')}}">Mentee Profile</a></li>
+										<li><a href="{{route('homepage')}}">Mentor Dashboard</a></li>
+										<li><a href="{{route('homepage')}}">Bookings</a></li>
+										<li><a href="{{route('homepage')}}">Schedule Timing</a></li>
+										<li><a href="{{route('homepage')}}">Mentee List</a></li>
+										<li><a href="{{route('homepage')}}">Mentee Profile</a></li>
 										<li class="has-submenu">
-											<a href="{{route('home')}}">Blog</a>
+											<a href="{{route('homepage')}}">Blog</a>
 											<ul class="submenu">
-												<li><a href="{{route('home')}}">Blog</a></li>
-												<li><a href="{{route('home')}}">Blog View</a></li>
-												<li><a href="{{route('home')}}">Add Blog</a></li>
-												<li><a href="{{route('home')}}">Edit Blog</a></li>
+												<li><a href="{{route('homepage')}}">Blog</a></li>
+												<li><a href="{{route('homepage')}}">Blog View</a></li>
+												<li><a href="{{route('homepage')}}">Add Blog</a></li>
+												<li><a href="{{route('homepage')}}">Edit Blog</a></li>
 											</ul>
 										</li>
-										<li><a href="{{route('home')}}">Chat</a></li>
-										<li><a href="{{route('home')}}">Invoices</a></li>
-										<li><a href="{{route('home')}}">Profile Settings</a></li>
-										<li><a href="{{route('home')}}">Reviews</a></li>
-										<li><a href="{{route('home')}}">Mentor Register</a></li>
+										<li><a href="{{route('homepage')}}">Chat</a></li>
+										<li><a href="{{route('homepage')}}">Invoices</a></li>
+										<li><a href="{{route('homepage')}}">Profile Settings</a></li>
+										<li><a href="{{route('homepage')}}">Reviews</a></li>
+										<li><a href="{{route('homepage')}}">Mentor Register</a></li>
 									</ul>
 								</li>
 								<li class="has-submenu">
@@ -94,55 +94,55 @@
 										<li class="has-submenu">
 											<a href="#">Mentors</a>
 											<ul class="submenu">
-												<li><a href="{{route('home')}}">Map Grid</a></li>
-												<li><a href="{{route('home')}}">Map List</a></li>
+												<li><a href="{{route('homepage')}}">Map Grid</a></li>
+												<li><a href="{{route('homepage')}}">Map List</a></li>
 											</ul>
 										</li>
-										<li><a href="{{route('home')}}">Search Mentor</a></li>
-										<li><a href="{{route('home')}}">Mentor Profile</a></li>
-										<li><a href="{{route('home')}}">Bookings</a></li>
-										<li><a href="{{route('home')}}">Checkout</a></li>
-										<li><a href="{{route('home')}}">Booking Success</a></li>
-										<li><a href="{{route('home')}}">Mentee Dashboard</a></li>
-										<li><a href="{{route('home')}}">Favourites</a></li>
-										<li><a href="{{route('home')}}">Chat</a></li>
-										<li><a href="{{route('home')}}">Profile Settings</a></li>
-										<li><a href="{{route('home')}}">Change Password</a></li>
+										<li><a href="{{route('homepage')}}">Search Mentor</a></li>
+										<li><a href="{{route('homepage')}}">Mentor Profile</a></li>
+										<li><a href="{{route('homepage')}}">Bookings</a></li>
+										<li><a href="{{route('homepage')}}">Checkout</a></li>
+										<li><a href="{{route('homepage')}}">Booking Success</a></li>
+										<li><a href="{{route('homepage')}}">Mentee Dashboard</a></li>
+										<li><a href="{{route('homepage')}}">Favourites</a></li>
+										<li><a href="{{route('homepage')}}">Chat</a></li>
+										<li><a href="{{route('homepage')}}">Profile Settings</a></li>
+										<li><a href="{{route('homepage')}}">Change Password</a></li>
 									</ul>
 								</li> --}}
 								<li class="has-submenu">
 									<a href="">Halaman <i class="fas fa-chevron-circle-down"></i></a>
 									<ul class="submenu">
-										<li><a href="{{route('home')}}">Voice Call</a></li>
-										<li><a href="{{route('home')}}">Video Call</a></li>
-										<li><a href="{{route('home')}}">Cari Tutor</a></li>
-										{{-- <li><a href="{{route('home')}}">Komponen</a></li> --}}
+										<li><a href="{{route('homepage')}}">Voice Call</a></li>
+										<li><a href="{{route('homepage')}}">Video Call</a></li>
+										<li><a href="{{route('homepage')}}">Cari Tutor</a></li>
+										{{-- <li><a href="{{route('homepage')}}">Komponen</a></li> --}}
 										<li class="has-submenu">
-											<a href="{{route('home')}}">Nota pembayaran</a>
+											<a href="{{route('homepage')}}">Nota pembayaran</a>
 											<ul class="submenu">
-												<li><a href="{{route('home')}}">Semua nota</a></li>
-												<li><a href="{{route('home')}}">Jadwal booking</a></li>
+												<li><a href="{{route('homepage')}}">Semua nota</a></li>
+												<li><a href="{{route('homepage')}}">Jadwal booking</a></li>
 											</ul>
 										</li>
-										<li><a href="{{route('home')}}">Halaman Utama</a></li>
-										<li><a href="{{route('home')}}">Login</a></li>
-										<li><a href="{{route('home')}}">Daftar</a></li>
-										<li><a href="{{route('home')}}">Lupa Password</a></li>
+										<li><a href="{{route('homepage')}}">Halaman Utama</a></li>
+										<li><a href="{{route('homepage')}}">Login</a></li>
+										<li><a href="{{route('homepage')}}">Daftar</a></li>
+										<li><a href="{{route('homepage')}}">Lupa Password</a></li>
 									</ul>
 								</li>
 								{{-- <li class="has-submenu">
 									<a href="">Blog <i class="fas fa-chevron-circle-down"></i></a>
 									<ul class="submenu">
-										<li><a href="{{route('home')}}">Blog List</a></li>
-										<li><a href="{{route('home')}}">Blog Grid</a></li>
-										<li><a href="{{route('home')}}">Blog Details</a></li>
+										<li><a href="{{route('homepage')}}">Blog List</a></li>
+										<li><a href="{{route('homepage')}}">Blog Grid</a></li>
+										<li><a href="{{route('homepage')}}">Blog Details</a></li>
 									</ul>
 								</li> --}}
 								<li class="login-link">
-									<a href="{{ route('home') }}">Login</a>
+									<a href="{{ route('homepage') }}">Login</a>
 								</li>
 								<li class="login-link">
-									<a href="{{ route('home') }}">Register</a>
+									<a href="{{ route('homepage') }}">Register</a>
 								</li>
 							</ul>
 						</div>
@@ -159,7 +159,7 @@
 			</header>
 			<!-- /Header -->
 
-			<!-- Home Banner -->
+			<!-- homepage Banner -->
 			<section class="section section-search-eight">
 				<div class="container">
 					<div class="banner-wrapper-eight m-auto text-center">
@@ -170,7 +170,7 @@
 
 						<!-- Search -->
 						<div class="search-box-eight aos" data-aos="fade-up">
-							<form action="{{ route('home') }}">
+							<form action="{{ route('homepage') }}">
 								<div class="form-search">
 									<div class="form-inner">
 										<div class="form-group search-location-eight">
@@ -195,7 +195,7 @@
 					</div>
 				</div>
 			</section>
-			<!-- /Home Banner -->
+			<!-- /homepage Banner -->
 
 			<!-- Work Flow -->
 			<section class="section how-it-works-section">
@@ -439,7 +439,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="{{ route('home') }}" class="course-img">
+									<a href="{{ route('homepage') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-01.jpg" alt="learn">
 											<div class="course-text">
@@ -457,7 +457,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="{{ route('home') }}" class="course-img">
+									<a href="{{ route('homepage') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-02.jpg" alt="learn">
 											<div class="course-text">
@@ -475,7 +475,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="{{ route('home') }}" class="course-img">
+									<a href="{{ route('homepage') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-03.jpg" alt="learn">
 											<div class="course-text">
@@ -494,7 +494,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="{{ route('home') }}" class="course-img">
+									<a href="{{ route('homepage') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-04.jpg" alt="learn">
 											<div class="course-text">
@@ -513,7 +513,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="{{ route('home') }}" class="course-img">
+									<a href="{{ route('homepage') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-05.jpg" alt="learn">
 											<div class="course-text">
@@ -532,7 +532,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="{{ route('home') }}" class="course-img">
+									<a href="{{ route('homepage') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-06.jpg" alt="learn">
 											<div class="course-text">
@@ -551,7 +551,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="{{ route('home') }}" class="course-img">
+									<a href="{{ route('homepage') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-07.jpg" alt="learn">
 											<div class="course-text">
@@ -570,7 +570,7 @@
 							<!-- Course Item -->
 							<div class="col-12 col-md-6 col-lg-3 aos" data-aos="fade-up">
 								<div class="course-item">
-									<a href="{{ route('home') }}" class="course-img">
+									<a href="{{ route('homepage') }}" class="course-img">
 										<div class="image-col-merge">
 											<img src="https://mentoring.dreamstechnologies.com/html/template/assets/img/course/course-08.jpg" alt="learn">
 											<div class="course-text">
@@ -588,7 +588,7 @@
 
 						</div>
 						<div class="view-all text-center aos" data-aos="fade-up">
-							<a href="{{ route('home') }}" class="btn btn-primary btn-view">Lihat semua</a>
+							<a href="{{ route('homepage') }}" class="btn btn-primary btn-view">Lihat semua</a>
 						</div>
 					</div>
 				</div>
@@ -784,20 +784,20 @@
 							<!-- Blog Post -->
 							<div class="blog-card">
 								<div class="blog-card-image">
-									<a href="{{ route('home') }}"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-01.jpg" alt="Post Image"></a>
+									<a href="{{ route('homepage') }}"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-01.jpg" alt="Post Image"></a>
 								</div>
 								<div class="blog-card-content">
 									<div class="blog-month">04 <span>Dec</span></div>
 									<ul class="meta-item-eight">
 										<li>
 											<div class="post-author-eight">
-												<a href="{{ route('home') }}"><span>Tyrone Roberts</span></a>
+												<a href="{{ route('homepage') }}"><span>Tyrone Roberts</span></a>
 											</div>
 										</li>
 									</ul>
-									<h3 class="blog-title-eight"><a href="{{ route('home') }}">Apa itu Lorem Ipsum? Lorem Ipsum secara sederhana</a></h3>
+									<h3 class="blog-title-eight"><a href="{{ route('homepage') }}">Apa itu Lorem Ipsum? Lorem Ipsum secara sederhana</a></h3>
 									<p>Lorem ipsum adalah kalimat yang biasa digunakan untuk designing. Biasanya designer menggunakan kalimat ini..</p>
-									<a href="{{ route('home') }}" class="read">Baca lebih lagi</a>
+									<a href="{{ route('homepage') }}" class="read">Baca lebih lagi</a>
 								</div>
 							</div>
 							<!-- /Blog Post -->
@@ -809,20 +809,20 @@
 							<!-- Blog Post -->
 							<div class="blog-card">
 								<div class="blog-card-image">
-									<a href="{{route('home')}}"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-16.jpg" alt="Post Image"></a>
+									<a href="{{route('homepage')}}"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-16.jpg" alt="Post Image"></a>
 								</div>
 								<div class="blog-card-content">
 									<div class="blog-month">05 <span>Jan</span></div>
 									<ul class="meta-item-eight">
 										<li>
 											<div class="post-author-eight">
-												<a href="{{route('home')}}"><span>Brittany Garcia</span></a>
+												<a href="{{route('homepage')}}"><span>Brittany Garcia</span></a>
 											</div>
 										</li>
 									</ul>
-									<h3 class="blog-title-eight"><a href="{{route('home')}}">Lain dari perkiraan, ternyata 'Laying fLat' adalah</a></h3>
+									<h3 class="blog-title-eight"><a href="{{route('homepage')}}">Lain dari perkiraan, ternyata 'Laying fLat' adalah</a></h3>
 									<p>Negara Tiongkok akhir akhir ini diguncangkan dengan adanya fenomena 'Laying Flat'. Anak mudah lebih memilih..</p>
-									<a href="{{route('home')}}" class="read">Baca lebih lagi</a>
+									<a href="{{route('homepage')}}" class="read">Baca lebih lagi</a>
 								</div>
 							</div>
 							<!-- /Blog Post -->
@@ -834,20 +834,20 @@
 							<!-- Blog Post -->
 							<div class="blog-card">
 								<div class="blog-card-image">
-									<a href="{{route('home')}}"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-17.jpg" alt="Post Image"></a>
+									<a href="{{route('homepage')}}"><img class="img-fluid" src="https://mentoring.dreamstechnologies.com/html/template/assets/img/blog/blog-17.jpg" alt="Post Image"></a>
 								</div>
 								<div class="blog-card-content">
 									<div class="blog-month">06 <span>May</span></div>
 									<ul class="meta-item-eight">
 										<li>
 											<div class="post-author-eight">
-												<a href="{{route('home')}}"><span>Allen Davis</span></a>
+												<a href="{{route('homepage')}}"><span>Allen Davis</span></a>
 											</div>
 										</li>
 									</ul>
-									<h3 class="blog-title-eight"><a href="{{route('home')}}">Chunk yang paling sering digunakan adalah Standard</a></h3>
+									<h3 class="blog-title-eight"><a href="{{route('homepage')}}">Chunk yang paling sering digunakan adalah Standard</a></h3>
 									<p>Siapasih belum tau dengan konsep chunk? Chunk adalah ukuran data yang...</p>
-									<a href="{{route('home')}}" class="read">Baca lebih lagi</a>
+									<a href="{{route('homepage')}}" class="read">Baca lebih lagi</a>
 								</div>
 							</div>
 							<!-- /Blog Post -->
@@ -855,7 +855,7 @@
 						</div>
 					</div>
 					<div class="view-all text-center aos" data-aos="fade-up">
-						<a href="{{route('home')}}" class="btn btn-primary btn-view">View All</a>
+						<a href="{{route('homepage')}}" class="btn btn-primary btn-view">View All</a>
 					</div>
 				</div>
 			</section>
@@ -887,11 +887,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">Untuk Murid</h2>
 									<ul>
-										<li><a href="{{route('home')}}">Search tutor</a></li>
-										<li><a href="{{route('home')}}">Login</a></li>
-										<li><a href="{{route('home')}}">Daftar</a></li>
-							    			<li><a href="{{route('home')}}">Booking</a></li>
-										<li><a href="{{route('home')}}">Dashboard Murid</a></li>
+										<li><a href="{{route('homepage')}}">Search tutor</a></li>
+										<li><a href="{{route('homepage')}}">Login</a></li>
+										<li><a href="{{route('homepage')}}">Daftar</a></li>
+							    			<li><a href="{{route('homepage')}}">Booking</a></li>
+										<li><a href="{{route('homepage')}}">Dashboard Murid</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -902,11 +902,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">Untuk Tutor</h2>
 									<ul>
-										<li><a href="{{ route('home') }}">Appointments</a></li>
-										<li><a href="{{ route('home') }}">Chat</a></li>
-										<li><a href="{{ route('home') }}">Login</a></li>
-										<li><a href="{{ route('home') }}">Daftarr</a></li>
-										<li><a href="{{ route('home') }}">Tutor Dashboard</a></li>
+										<li><a href="{{ route('homepage') }}">Appointments</a></li>
+										<li><a href="{{ route('homepage') }}">Chat</a></li>
+										<li><a href="{{ route('homepage') }}">Login</a></li>
+										<li><a href="{{ route('homepage') }}">Daftarr</a></li>
+										<li><a href="{{ route('homepage') }}">Tutor Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->

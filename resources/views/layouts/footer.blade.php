@@ -24,11 +24,11 @@
                     <div class="footer-widget footer-menu">
                         <h2 class="footer-title">Untuk Murid</h2>
                         <ul>
-                            <li><a href="{{route('home')}}">Search tutor</a></li>
-                            <li><a href="{{route('home')}}">Login</a></li>
-                            <li><a href="{{route('home')}}">Daftar</a></li>
-                                <li><a href="{{route('home')}}">Booking</a></li>
-                            <li><a href="{{route('home')}}">Dashboard Murid</a></li>
+                            <li><a href="{{route('homepage')}}">Search tutor</a></li>
+                            <li><a href="{{route('homepage')}}">Login</a></li>
+                            <li><a href="{{route('homepage')}}">Daftar</a></li>
+                                <li><a href="{{route('homepage')}}">Booking</a></li>
+                            <li><a href="{{route('homepage')}}">Dashboard Murid</a></li>
                         </ul>
                     </div>
                     <!-- /Footer Widget -->
@@ -39,11 +39,11 @@
                     <div class="footer-widget footer-menu">
                         <h2 class="footer-title">Untuk Tutor</h2>
                         <ul>
-                            <li><a href="{{ route('home') }}">Appointments</a></li>
-                            <li><a href="{{ route('home') }}">Chat</a></li>
-                            <li><a href="{{ route('home') }}">Login</a></li>
-                            <li><a href="{{ route('home') }}">Daftarr</a></li>
-                            <li><a href="{{ route('home') }}">Tutor Dashboard</a></li>
+                            <li><a href="{{ route('homepage') }}">Appointments</a></li>
+                            <li><a href="{{ route('homepage') }}">Chat</a></li>
+                            <li><a href="{{ route('homepage') }}">Login</a></li>
+                            <li><a href="{{ route('homepage') }}">Daftarr</a></li>
+                            <li><a href="{{ route('homepage') }}">Tutor Dashboard</a></li>
                         </ul>
                     </div>
                     <!-- /Footer Widget -->

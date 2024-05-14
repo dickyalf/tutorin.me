@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
     return view('landing');
-})->name('home');
+})->name('homepage');
 Route::get('/welcome', function (){
     return view('welcome');
 })->name('welcome');
@@ -44,4 +44,4 @@ Route::get('/student-view', function(){
     return view('student-view');
 })->name('student-view');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -8,7 +8,7 @@
                 <div c lass="col-md-12 col-12">
                     <nav aria-label="breadcrumb" class="page-breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{route('home')}}">Beranda</a></li>
+                            <li class="breadcrumb-item"><a href="{{route('homepage')}}">Beranda</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Lihat Nota Pembayaran</li>
                         </ol>
                     </nav>
