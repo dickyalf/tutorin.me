@@ -125,7 +125,7 @@
                             <div class="col-md-12">
 
                                 <!-- Time Slot -->
-                                <div class="time-slot">
+                                <div class="time-slot" id="time-slot">
                                     <ul class="clearfix">
                                         <li>
                                             <a class="timing" href="#">
@@ -175,17 +175,6 @@
                                             <a class="timing" href="#">
                                                 <span>9:00</span> <span>AM</span>
                                             </a>
-                                            <a class="timing selected" href="#">
-                                                <span>10:00</span> <span>AM</span>
-                                            </a>
-                                            <a class="timing" href="#">
-                                                <span>11:00</span> <span>AM</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="timing" href="#">
-                                                <span>9:00</span> <span>AM</span>
-                                            </a>
                                             <a class="timing" href="#">
                                                 <span>10:00</span> <span>AM</span>
                                             </a>
@@ -194,13 +183,24 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="timing" href="#">
+                                            <a class="dis">
                                                 <span>9:00</span> <span>AM</span>
                                             </a>
-                                            <a class="timing" href="#">
+                                            <a class="dis">
                                                 <span>10:00</span> <span>AM</span>
                                             </a>
-                                            <a class="timing" href="#">
+                                            <a class="dis">
+                                                <span>11:00</span> <span>AM</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dis">
+                                                <span>9:00</span> <span>AM</span>
+                                            </a>
+                                            <a class="dis">
+                                                <span>10:00</span> <span>AM</span>
+                                            </a>
+                                            <a class="dis">
                                                 <span>11:00</span> <span>AM</span>
                                             </a>
                                         </li>
@@ -230,5 +230,26 @@
 <!-- /Page Content -->
 
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const timeSlotContainer = document.getElementById('time-slot');
+        const timeSlots = timeSlotContainer.querySelectorAll('.timing');
+
+        timeSlots.forEach(slot => {
+            slot.addEventListener('click', function (event) {
+                event.preventDefault();
+
+                if (this.classList.contains('selected')) {
+                    this.classList.remove('selected'); // Deselect the time slot
+                } else {
+                    // Remove 'selected' class from all other time slots
+                    // timeSlots.forEach(slot => slot.classList.remove('selected'));
+                    this.classList.add('selected'); // Select the clicked time slot
+                }
+            });
+        });
+    });
+</script>
 @endsection
 <!-- /Main Wrapper -->

@@ -1,10 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
     return view('landing');
 })->name('home');
+Route::get('/welcome', function (){
+    return view('welcome');
+})->name('welcome');
 
 Route::get('/profile', function () {
     return view('profile');
@@ -27,14 +32,16 @@ Route::get('/invoice-view', function () {
     return view('invoice');
 })->name('invoice-view');
 
-Route::get('/login', function () {
-    return view('login');
-})->name('login');
+Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::post('/login-action', [AuthController::class, 'loginAction'])->name('login.action');
+Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+Route::get('/register', [AuthController::class, 'register'])->name('register');
+Route::post('/register-action', [AuthController::class, 'registerAction'])->name('register.action');
 
-Route::get('/register', function() {
-    return view('register');
-})->name('register');
+// Auth::routes();
 
 Route::get('/student-view', function(){
     return view('student-view');
 })->name('student-view');
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

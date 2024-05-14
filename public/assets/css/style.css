@@ -7358,6 +7358,19 @@ html.menu-opened body {
     text-align: center;
 	position: relative;
 }
+
+.time-slot li .dis {
+    background-color: #E6260C;
+    border: 1px solid #E6260C;
+    border-radius: 3px;
+	color: #fff;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    text-align: center;
+	position: relative;
+}
 .time-slot li .timing:hover {
     background-color: #fff;
 }

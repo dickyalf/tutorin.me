@@ -45,7 +45,9 @@
                             </div>
 
                             <!-- Register Form -->
-                            <form action="index.html">
+                            <form action="POST" action="{{ route('register') }}">
+                                @csrf
+
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
@@ -60,10 +62,20 @@
                                             <input id="last-name" type="text" class="form-control" name="last_name">
                                         </div>
                                     </div>
+                                    @error('name')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
                                 </div>
                                 <div class="form-group">
                                     <label class="form-control-label">Email Address</label>
                                     <input id="email" type="email" class="form-control">
+                                    @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6">
@@ -92,7 +104,7 @@
                                 </div>
                                 <button class="btn btn-primary login-btn" type="submit">Create Account</button>
                                 <div class="account-footer text-center mt-3">
-                                    Already have an account? <a class="forgot-link mb-0" href="login.html">Login</a>
+                                    Already have an account? <a class="forgot-link mb-0" href="{{route('login')}}">Login</a>
                                 </div>
                             </form>
                             <!-- /Register Form -->

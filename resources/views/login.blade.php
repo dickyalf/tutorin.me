@@ -40,17 +40,35 @@
                                 <h3>Login <span>Student & Tutor</span></h3>
                                 <p class="text-muted">Access to our dashboard</p>
                             </div>
-                            <form action="index.html">
+                            @if (Session::has('error'))
+                                <div class="alert alert-danger">
+                                    {{ Session::het('error') }}
+                                </div>
+                            @endif
+                            <form method= "POST" action="{{ route('login.action') }}">
+                                @csrf
                                 <div class="form-group">
                                     <label class="form-control-label">Email Address</label>
-                                    <input type="email" class="form-control">
+                                    <input id="email" type="email"
+                                        class="form-control @error('email') is-invalid @enderror" name="email"
+                                        value="{{ old('email') }}" required autocomplete="email" autofocus>
+                                    @error('email')
+                                        <div class="invalid-feedback">
+                                            {{ $message }}
+                                        </div>
+                                    @enderror
                                 </div>
                                 <div class="form-group">
                                     <label class="form-control-label">Password</label>
                                     <div class="pass-group">
-                                        <input type="password" class="form-control pass-input">
+                                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
                                         <span class="fas fa-eye toggle-password"></span>
                                     </div>
+                                    @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                                 </div>
                                 <div class="text-end">
                                     <a class="forgot-link" href="forgot-password.html">Forgot Password ?</a>
@@ -58,7 +76,7 @@
                                 <a href="{{ route('student-view') }}"><button class="btn btn-primary login-btn"
                                         type="button">Login</button></a>
                                 <div class="text-center dont-have">Don’t have an account? <a
-                                        href="register.html">Register</a>
+                                        href="{{ route('register') }}">Register</a>
                                 </div>
                             </form>
                         </div>
