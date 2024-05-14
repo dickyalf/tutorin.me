@@ -8,11 +8,11 @@
                 <div c lass="col-md-12 col-12">
                     <nav aria-label="breadcrumb" class="page-breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Invoice View</li>
+                            <li class="breadcrumb-item"><a href="{{route('home')}}">Beranda</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Lihat Nota Pembayaran</li>
                         </ol>
                     </nav>
-                    <h2 class="breadcrumb-title">Invoice View</h2>
+                    <h2 class="breadcrumb-title">Lihat Nota Pembayaran</h2>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="invoice-info">
-                                        <strong class="customer-text">Invoice From</strong>
+                                        <strong class="customer-text">Nota dari</strong>
                                         <p class="invoice-details invoice-details-two">
                                             Willas Rorrong <br>
                                             806 Kos bu ika, Sambikerep,<br>
@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="invoice-info invoice-info2">
-                                        <strong class="customer-text">Invoice To</strong>
+                                        <strong class="customer-text">Nota ke</strong>
                                         <p class="invoice-details">
                                             Julius Wuwung <br>
                                             299 Tanah Merah, Kenjeran, <br>
@@ -74,7 +74,26 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="invoice-info">
-                                        <strong class="customer-text">Payme nt Method</strong>
+                                        <strong class="customer-text">Detail pertemuan</strong>
+                                        <p class="invoice-details invoice-details-two">
+                                            12 Nov 2019  <br>
+                                            5:00PM to 6:00PM <br>
+                                            Online <br>
+                                            Kelas Algoritma Keamanan Siber<br>
+                                            Private<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Invoice Item -->
+
+                        <!-- Invoice Item -->
+                        <div class="invoice-item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="invoice-info">
+                                        <strong class="customer-text">Metode pembayaran</strong>
                                         <p class="invoice-details invoice-details-two">
                                             Debit Card <br>
                                             XXXXXXXXXXXX-2541 <br>
@@ -95,29 +114,29 @@
                                             <thead>
                                                 <tr>
                                                     <th>Description</th>
-                                                    <th class="text-center">Quantity</th>
+                                                    <th class="text-center">Jumlah</th>
                                                     <th class="text-center">VAT</th>
                                                     <th class="text-end">Total</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>General Consultation</td>
+                                                    <td>Biaya Mentoring</td>
                                                     <td class="text-center">1</td>
                                                     <td class="text-center">Rp 500.000</td>
                                                     <td class="text-end">Rp 500.000</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Booking Fee</td>
+                                                    <td>Biaya Pelayanan</td>
                                                     <td class="text-center">1</td>
-                                                    <td class="text-center">Rp 10.000</td>
-                                                    <td class="text-end">Rp 10.000</td>
+                                                    <td class="text-center">Rp 5.000</td>
+                                                    <td class="text-end">Rp 5.000</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Video Call Booking</td>
+                                                    <td>Biaya Add-Ons: Rekaman ulang</td>
                                                     <td class="text-center">1</td>
-                                                    <td class="text-center">Rp 0</td>
-                                                    <td class="text-end">Rp 0</td>
+                                                    <td class="text-center">Rp 50.000</td>
+                                                    <td class="text-end">Rp 50.000</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -129,7 +148,7 @@
                                             <tbody>
                                                 <tr>
                                                     <th>Subtotal:</th>
-                                                    <td><span>Rp 510.000</span></td>
+                                                    <td><span>Rp 555.000</span></td>
                                                 </tr>
                                                 <tr>
                                                     <th>Discount:</th>
@@ -137,7 +156,7 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Total Amount:</th>
-                                                    <td><span>Rp 510.000</span></td>
+                                                    <td><span>Rp 555.000</span></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -149,12 +168,8 @@
 
                         <!-- Invoice Information -->
                         <div class="other-info">
-                            <h4>Other information</h4>
-                            <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Vivamus sed dictum ligula, cursus blandit risus. Maecenas eget metus non tellus
-                                dignissim aliquam ut a ex. Maecenas sed vehicula dui, ac suscipit lacus. Sed
-                                finibus leo vitae lorem interdum, eu scelerisque tellus fermentum. Curabitur sit
-                                amet lacinia lorem. Nullam finibus pellentesque libero.</p>
+                            <h4>Informasi lain</h4>
+                            <p class="text-muted mb-0">Berlaku hanya sesuai tanggal main. Penggaduan bisa diadukan pada customer service. Selamat belajar.</p>
                         </div>
                         <!-- /Invoice Information -->
 

@@ -25,7 +25,7 @@
                 </div>
                 <ul class="main-nav">
                     <li>
-                        <a href="{{ route('home') }}">Home</a>
+                        <a href="{{ route('home') }}">Beranda</a>
                     </li>
                     {{-- <li class="has-submenu">
                         <a href="">Mentor <i class="fas fa-chevron-circle-down"></i></a>
@@ -74,23 +74,23 @@
                         </ul>
                     </li> --}}
                     <li class="has-submenu">
-                        <a href="">Pages <i class="fas fa-chevron-circle-down"></i></a>
+                        <a href="">Halaman <i class="fas fa-chevron-circle-down"></i></a>
                         <ul class="submenu">
-                            <li><a href="{{ route('home') }}">Voice Call</a></li>
-                            <li><a href="{{ route('home') }}">Video Call</a></li>
-                            <li><a href="{{ route('home') }}">Search Mentors</a></li>
-                            <li><a href="{{ route('home') }}">Components</a></li>
+                            <li><a href="{{route('home')}}">Voice Call</a></li>
+                            <li><a href="{{route('home')}}">Video Call</a></li>
+                            <li><a href="{{route('home')}}">Cari Tutor</a></li>
+                            {{-- <li><a href="{{route('home')}}">Komponen</a></li> --}}
                             <li class="has-submenu">
-                                <a href="{{ route('home') }}">Invoices</a>
+                                <a href="{{route('home')}}">Nota pembayaran</a>
                                 <ul class="submenu">
-                                    <li><a href="{{ route('home') }}">Invoices</a></li>
-                                    <li><a href="{{ route('home') }}">Invoice View</a></li>
+                                    <li><a href="{{route('home')}}">Semua nota</a></li>
+                                    <li><a href="{{route('home')}}">Jadwal booking</a></li>
                                 </ul>
                             </li>
-                            <li><a href="{{ route('home') }}">Starter Page</a></li>
-                            <li><a href="{{ route('home') }}">Login</a></li>
-                            <li><a href="{{ route('home') }}">Register</a></li>
-                            <li><a href="{{ route('home') }}">Forgot Password</a></li>
+                            <li><a href="{{route('home')}}">Halaman Utama</a></li>
+                            <li><a href="{{route('home')}}">Login</a></li>
+                            <li><a href="{{route('home')}}">Daftar</a></li>
+                            <li><a href="{{route('home')}}">Lupa Password</a></li>
                         </ul>
                     </li>
                     {{-- <li class="has-submenu">

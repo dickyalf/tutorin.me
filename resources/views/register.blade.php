@@ -49,14 +49,14 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label class="form-control-label">First Name</label>
+                                            <label class="form-control-label">Nama dapan</label>
                                             <input id="first-name" type="text" class="form-control" name="first_name"
                                                 autofocus="">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label class="form-control-label">Last Name</label>
+                                            <label class="form-control-label">Nama belakang</label>
                                             <input id="last-name" type="text" class="form-control" name="last_name">
                                         </div>
                                     </div>
@@ -84,13 +84,12 @@
                                     <div class="form-check form-check-xs custom-checkbox">
                                         <input type="checkbox" class="form-check-input" name="agreeCheckboxUser"
                                             id="agree_checkbox_user">
-                                        <label class="form-check-label" for="agree_checkbox_user">I agree to
-                                            Mentoring</label>
+                                        <label class="form-check-label" for="agree_checkbox_user">I setuju untuk menjadi tutor</label>
                                         <a tabindex="-1" href="javascript:void(0);">Privacy Policy</a> &amp; <a
                                             tabindex="-1" href="javascript:void(0);"> Terms.</a>
                                     </div>
                                 </div>
-                                <button class="btn btn-primary login-btn" type="submit">Create Account</button>
+                                <button class="btn btn-primary login-btn" type="submit">Buat Akun</button>
                                 <div class="account-footer text-center mt-3">
                                     Already have an account? <a class="forgot-link mb-0" href="login.html">Login</a>
                                 </div>

@@ -53,7 +53,7 @@
                                     </div>
                                 </div>
                                 <div class="text-end">
-                                    <a class="forgot-link" href="forgot-password.html">Forgot Password ?</a>
+                                    <a class="forgot-link" href="forgot-password.html">Lupa password ?</a>
                                 </div>
                                 <a href="{{ route('student-view') }}"><button class="btn btn-primary login-btn"
                                         type="button">Login</button></a>

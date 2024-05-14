@@ -1,101 +1,71 @@
 <!-- Footer -->
-<footer class="footer">
+<footer class="footer footer-eight">
 
     <!-- Footer Top -->
-    <div class="footer-top">
+    <div class="footer-top aos" data-aos="fade-up">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
 
+                <div class="col-lg-3 col-md-6">
                     <!-- Footer Widget -->
                     <div class="footer-widget footer-about">
                         <div class="footer-logo">
-                            <img src="assets/img/tutorin-logo-last.jpg" alt="logo">
+                            <img src="assets/img/tutorin-logolastlastwhite.jpg" alt="logo">
                         </div>
                         <div class="footer-about-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. </p>
-                            <div class="social-icon">
-                                <ul>
-                                    <li>
-                                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank"><i class="fab fa-dribbble"></i> </a>
-                                    </li>
-                                </ul>
-                            </div>
+                            <p>Tutoring Fleksibel hanya ada di Tutorin.me</p>
                         </div>
                     </div>
                     <!-- /Footer Widget -->
-
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-
                     <!-- Footer Widget -->
                     <div class="footer-widget footer-menu">
-                        <h2 class="footer-title">For Mentee</h2>
+                        <h2 class="footer-title">Untuk Murid</h2>
                         <ul>
-                            <li><a href="{{ route('home') }}">Search Mentors</a></li>
-                            <li><a href="{{ route('home') }}">Login</a></li>
-                            <li><a href="{{ route('home') }}">Register</a></l i>
-                            <li><a href="{{ route('home') }}">Booking</a></li>
-                            <li><a href="{{ route('home') }}">Mentee Dashboard</a></li>
+                            <li><a href="{{route('home')}}">Search tutor</a></li>
+                            <li><a href="{{route('home')}}">Login</a></li>
+                            <li><a href="{{route('home')}}">Daftar</a></li>
+                                <li><a href="{{route('home')}}">Booking</a></li>
+                            <li><a href="{{route('home')}}">Dashboard Murid</a></li>
                         </ul>
                     </div>
                     <!-- /Footer Widget -->
-
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-
                     <!-- Footer Widget -->
                     <div class="footer-widget footer-menu">
-                        <h2 class="footer-title">For Mentors</h2>
+                        <h2 class="footer-title">Untuk Tutor</h2>
                         <ul>
                             <li><a href="{{ route('home') }}">Appointments</a></li>
-                            <li><a href="{{ route('home') }}l">Chat</a></li>
+                            <li><a href="{{ route('home') }}">Chat</a></li>
                             <li><a href="{{ route('home') }}">Login</a></li>
-                            <li><a href="{{ route('home') }}">Register</a></li>
-                            <li><a href="{{ route('home') }}">Mentor Dashboard</a></li>
+                            <li><a href="{{ route('home') }}">Daftarr</a></li>
+                            <li><a href="{{ route('home') }}">Tutor Dashboard</a></li>
                         </ul>
                     </div>
                     <!-- /Footer Widget -->
-
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-
                     <!-- Footer Widget -->
                     <div class="footer-widget footer-contact">
-                        <h2 class="footer-title">Contact Us</h2>
+                        <h2 class="footer-title">Contact Kami</h2>
                         <div class="footer-contact-info">
                             <div class="footer-address">
-                                <span><i class="fas fa-map-marker-alt"></i></span>
-                                <p> 3556 Beech Street, San Francisco,<br> California, CA 94108 </p>
+                                <p> Universitas Ciputra,<br> Surabaya, Indonesia </p>
                             </div>
                             <p>
-                                <i class="fas fa-phone-alt"></i>
-                                +1 315 369 5943
+                                +62 8123 456 4647
                             </p>
                             <p class="mb-0">
-                                <i class="fas fa-envelope"></i>
-                                mentoring@example.com
+                                Tutorly@example.com
                             </p>
                         </div>
                     </div>
                     <!-- /Footer Widget -->
-
                 </div>
 
             </div>
@@ -109,15 +79,29 @@
             <!-- Copyright -->
             <div class="copyright">
                 <div class="row">
-                    <div class="col-12 text-center">
+                    <div class="col-md-6">
                         <div class="copyright-text">
-                            <p class="mb-0">&copy; 2020 Tutorly. All rights reserved.</p>
+                            <p class="mb-0">&copy; 2022 Tutorin. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social-icon text-md-end">
+                            <ul>
+                                <li>
+                                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- /Copyright-->
-
+            <!-- /Copyright -->
         </div>
     </div>
     <!-- /Footer Bottom -->

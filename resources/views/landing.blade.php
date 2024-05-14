@@ -876,7 +876,7 @@
 										<img src="assets/img/tutorin-logolastlastwhite.jpg" alt="logo">
 									</div>
 									<div class="footer-about-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+										<p>Tutoring Fleksibel hanya ada di Tutorin.me</p>
 									</div>
 								</div>
 								<!-- /Footer Widget -->
@@ -885,7 +885,7 @@
 							<div class="col-lg-3 col-md-6">
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-menu">
-									<h2 class="footer-title">For Murid</h2>
+									<h2 class="footer-title">Untuk Murid</h2>
 									<ul>
 										<li><a href="{{route('home')}}">Search tutor</a></li>
 										<li><a href="{{route('home')}}">Login</a></li>
@@ -900,7 +900,7 @@
 							<div class="col-lg-3 col-md-6">
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-menu">
-									<h2 class="footer-title">For Tutor</h2>
+									<h2 class="footer-title">Untuk Tutor</h2>
 									<ul>
 										<li><a href="{{ route('home') }}">Appointments</a></li>
 										<li><a href="{{ route('home') }}">Chat</a></li>
