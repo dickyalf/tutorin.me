@@ -218,7 +218,7 @@
 
                 <!-- Submit Section -->
                 <div class="submit-section proceed-btn text-end">
-                    <a href="checkout" class="btn btn-primary submit-btn">Proceed to Pay</a>
+                    <a href="checkout" class="btn btn-primary submit-btn">Lanjutkan ke Pembayaran</a>
                 </div>
                 <!-- /Submit Section -->
 

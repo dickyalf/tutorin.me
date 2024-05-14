@@ -37,13 +37,13 @@
                                     <div class="row">
                                         <div class="col-md-6 col-sm-12">
                                             <div class="form-group card-label">
-                                                <label>First Name</label>
+                                                <label>Nama Depan</label>
                                                 <input class="form-control" type="text">
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-12">
                                             <div class="form-group card-label">
-                                                <label>Last Name</label>
+                                                <label>Nama Belakang</label>
                                                 <input class="form-control" type="text">
                                             </div>
                                         </div>
@@ -78,27 +78,27 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group card-label">
-                                                    <label for="card_name">Name on Card</label>
+                                                    <label for="card_name">Nama pada Kartu</label>
                                                     <input class="form-control" id="card_name" type="text">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group card-label">
-                                                    <label for="card_number">Card Number</label>
+                                                    <label for="card_number">Nomor Kartu</label>
                                                     <input class="form-control" id="card_number"
                                                         placeholder="1234  5678  9876  5432" type="text">
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group card-label">
-                                                    <label for="expiry_month">Expiry Month</label>
+                                                    <label for="expiry_month">Bulan Expired</label>
                                                     <input class="form-control" id="expiry_month" placeholder="MM"
                                                         type="text">
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group card-label">
-                                                    <label for="expiry_year">Expiry Year</label>
+                                                    <label for="expiry_year">Tahun Expired</label>
                                                     <input class="form-control" id="expiry_year" placeholder="YY"
                                                         type="text">
                                                 </div>
@@ -127,7 +127,7 @@
                                     <div class="terms-accept">
                                         <div class="custom-checkbox">
                                             <input type="checkbox" id="terms_accept">
-                                            <label for="terms_accept">I have read and accepted <a href="#">Terms &amp;
+                                            <label for="terms_accept">Saya sudah membaca dan menyetujui Terms & Conditions <a href="#">Terms &amp;
                                                     Conditions</a></label>
                                         </div>
                                     </div>
@@ -135,7 +135,7 @@
 
                                     <!-- Submit Section -->
                                     <div class="submit-section mt-4">
-                                        <button type="submit" class="btn btn-primary submit-btn">Confirm and Pay</button>
+                                        <button type="submit" class="btn btn-primary submit-btn">Konfirmasi dan Bayar</button>
                                     </div>
                                     <!-- /Submit Section -->
 
@@ -183,19 +183,19 @@
                             <div class="booking-summary">
                                 <div class="booking-item-wrap">
                                     <ul class="booking-date">
-                                        <li>Date <span>16 Nov 2019</span></li>
-                                        <li>Time <span>10:00 AM</span></li>
+                                        <li>Tanggal <span>16 Nov 2019</span></li>
+                                        <li>Waktu <span>10:00 AM</span></li>
                                     </ul>
                                     <ul class="booking-fee">
-                                        <li>Consulting Fee <span>Rp 500.000</span></li>
-                                        <li>Booking Fee <span>Rp 10.000</span></li>
-                                        <li>Video Call <span>Rp 0</span></li>
+                                        <li>Biaya Mentoring <span>Rp 500.000</span></li>
+                                        <li>Biaya Layanan <span>Rp 5.000</span></li>
+                                        <li>Biaya Add-Ons: Rekaman Ulang<span>Rp 50.000</span></li>
                                     </ul>
                                     <div class="booking-total">
                                         <ul class="booking-total-list">
                                             <li>
                                                 <span>Total</span>
-                                                <span class="total-cost">Rp 510.000</span>
+                                                <span class="total-cost">Rp 555.000</span>
                                             </li>
                                         </ul>
                                     </div>

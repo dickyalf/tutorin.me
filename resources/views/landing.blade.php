@@ -62,7 +62,7 @@
 							</div>
 							<ul class="main-nav main-nav-eight">
                                 <li>
-									<a href="{{route('home')}}">Home</a>
+									<a href="{{route('home')}}">Beranda</a>
 								</li>
 								{{-- <li class="has-submenu">
 									<a href="">Mentor <i class="fas fa-chevron-circle-down"></i></a>
@@ -111,23 +111,23 @@
 									</ul>
 								</li> --}}
 								<li class="has-submenu">
-									<a href="">Pages <i class="fas fa-chevron-circle-down"></i></a>
+									<a href="">Halaman <i class="fas fa-chevron-circle-down"></i></a>
 									<ul class="submenu">
 										<li><a href="{{route('home')}}">Voice Call</a></li>
 										<li><a href="{{route('home')}}">Video Call</a></li>
-										<li><a href="{{route('home')}}">Search Mentors</a></li>
-										<li><a href="{{route('home')}}">Components</a></li>
+										<li><a href="{{route('home')}}">Cari Tutor</a></li>
+										{{-- <li><a href="{{route('home')}}">Komponen</a></li> --}}
 										<li class="has-submenu">
-											<a href="{{route('home')}}">Invoices</a>
+											<a href="{{route('home')}}">Nota pembayaran</a>
 											<ul class="submenu">
-												<li><a href="{{route('home')}}">Invoices</a></li>
-												<li><a href="{{route('home')}}">Invoice View</a></li>
+												<li><a href="{{route('home')}}">Semua nota</a></li>
+												<li><a href="{{route('home')}}">Jadwal booking</a></li>
 											</ul>
 										</li>
-										<li><a href="{{route('home')}}">Starter Page</a></li>
+										<li><a href="{{route('home')}}">Halaman Utama</a></li>
 										<li><a href="{{route('home')}}">Login</a></li>
-										<li><a href="{{route('home')}}">Register</a></li>
-										<li><a href="{{route('home')}}">Forgot Password</a></li>
+										<li><a href="{{route('home')}}">Daftar</a></li>
+										<li><a href="{{route('home')}}">Lupa Password</a></li>
 									</ul>
 								</li>
 								{{-- <li class="has-submenu">
@@ -164,8 +164,8 @@
 				<div class="container">
 					<div class="banner-wrapper-eight m-auto text-center">
 						<div class="banner-header aos" data-aos="fade-up">
-							<h1>Search Teacher in <span>Tutorly</span> Appointment</h1>
-							<p>Discover the best Mentors & institutions the city nearest to you.</p>
+							<h1>Cari Tutor di <span>Tutorin</span> </h1>
+							<p>Temukan Tutor dan Institusi seperti preferensimu!</p>
 						</div>
 
 						<!-- Search -->
@@ -177,15 +177,15 @@
 											<i class="material-icons">search</i>
 											<select class="form-control select">
 												<option>Tutor</option>
-												<option>Categories</option>
-												<option>Location</option>
+												<option>Kategori</option>
+												<option>Lokasi</option>
 											</select>
 										</div>
 										<div class="form-group search-info-eight">
-											<i class="material-icons">search</i>
-											<input type="text" class="form-control" placeholder="Search Tutor, Categories, etc">
+											<i class="material-icons">cari</i>
+											<input type="text" class="form-control" placeholder="Cari Tutor, Kategori, dll">
 										</div>
-										<button type="submit" class="btn search-btn-eight mt-0">Search <i class="fas fa-long-arrow-alt-right"></i></button>
+										<button type="submit" class="btn search-btn-eight mt-0">Cari <i class="fas fa-long-arrow-alt-right"></i></button>
 									</div>
 								</div>
 							</form>
@@ -201,9 +201,9 @@
 			<section class="section how-it-works-section">
 				<div class="container">
 					<div class="section-header-eight text-center aos" data-aos="fade-up">
-						<span>Tutorly Flow</span>
-						<h2>How does it works ?</h2>
-						<p class="sub-title">Are you looking to join online institutions? Now it's very simple, Sign up with Tutorly</p>
+						<span>Flow Tutorin</span>
+						<h2>Bagaimana cara kerjanya?</h2>
+						<p class="sub-title">Apakah anda ingin bergabung pada program belajar? Mudah sekali, Daftar dengan Tutorin!</p>
 						<div class="sec-dots">
 							  <span></span>
 							  <span></span>
@@ -218,10 +218,10 @@
 										<span class="circle bg-green"><i class="fas fa-sign-in-alt"></i></span>
 									</div>
 									<div class="feature-cont">
-										<div class="feature-text-eight">Sign up</div>
+										<div class="feature-text-eight">Daftar</div>
 									</div>
 								</div>
-								<p>Are you looking to join online Learning? Now it's very simple, Now Sign up</p>
+								<p>Pendaftaran murid baru hanya membutuhkan waktu &lt;5 menit!</p>
 								<span class="text-green">01</span>
 							</div>
 						</div>
@@ -232,10 +232,10 @@
 										<span class="circle bg-blue"><i class="material-icons">accessibility</i></span>
 									</div>
 									<div class="feature-cont">
-										<div class="feature-text-eight">Collaborate</div>
+										<div class="feature-text-eight">Belajar bersama</div>
 									</div>
 								</div>
-								<p>Collaborate on your own timing, by scheduling with mentor booking</p>
+								<p>Pilih waktu belajarmu sendiri, dengan scheduling tutor!</p>
 								<span class="text-blue">02</span>
 							</div>
 						</div>
@@ -246,10 +246,10 @@
 										<span class="circle bg-orange"><i class="material-icons">event_seat</i></span>
 									</div>
 									<div class="feature-cont">
-										<div class="feature-text-eight">Improve & Get Back</div>
+										<div class="feature-text-eight">Beri Ulasan</div>
 									</div>
 								</div>
-								<p>you can gather different skill set, and you can become mentor too</p>
+								<p>Berikan ulasan bagi kami dan pengajar, bersama kita akan bertumbuh untuk yang lebih baik!</p>
 								<span class="text-orange">03</span>
 							</div>
 						</div>
@@ -263,9 +263,9 @@
 				<div class="mendor-title">
 					<div class="section-header-eight text-center">
 						<div class="container aos" data-aos="fade-up">
-							<span>Tutorly Goals</span>
-							<h2 class="text-white">Popular Mentors</h2>
-							<p class="sub-title text-white"> Choose your most popular leaning mentors, it will help you to achieve your professional goals..</p>
+							<span>Panutan Tutorin</span>
+							<h2 class="text-white">Mentor Terbaik</h2>
+							<p class="sub-title text-white"> Cari Mentor dengan rating dan jumlah murid terbaik, mereka akan membantu kamu mencapai mimpi kamu.</p>
 							<div class="sec-dots">
 								<span></span>
 								<span></span>
@@ -289,7 +289,7 @@
 								<div class="mendor-content">
 									<h3 class="title"><a href="profile">Dicky Al Fayed</a></h3>
 									<div class="mendor-course">
-										Fullstack Programmer
+										Fullstack Programming
 									</div>
 									<div class="mendor-price-list">
 										<div class="mendor-price">Rp 200.000 <span>/ hr</span></div>
@@ -370,7 +370,7 @@
 								<div class="mendor-content">
 									<h3 class="title"><a href="profile">Yobel</a></h3>
 									<div class="mendor-course">
-										Computer Programming
+										Landscape Photography, Social Photography
 									</div>
 									<div class="mendor-price-list">
 										<div class="mendor-price">Rp 300.000 <span>/ hr</span></div>
@@ -423,9 +423,9 @@
 			<section class="section path-section-eight">
 				<div class="section-header-eight text-center aos" data-aos="fade-up">
 					<div class="container">
-						<span>Choose the</span>
-						<h2>Different All Learning Paths</h2>
-						<p class="sub-title">Are you looking to join online institutions? Now it's very simple, Sign up with Tutorly</p>
+						<span>Pilih jalur</span>
+						<h2> Belajar yang beraneka ragam!</h2>
+						<p class="sub-title">Apakah anda ingin bergabung pada program belajar? Mudah sekali, Daftar dengan Tutorin!</p>
 						<div class="sec-dots">
 							 <span></span>
 							 <span></span>
@@ -588,7 +588,7 @@
 
 						</div>
 						<div class="view-all text-center aos" data-aos="fade-up">
-							<a href="{{ route('home') }}" class="btn btn-primary btn-view">View All</a>
+							<a href="{{ route('home') }}" class="btn btn-primary btn-view">Lihat semua</a>
 						</div>
 					</div>
 				</div>
@@ -600,8 +600,8 @@
 				<div class="section-header-eight text-center aos" data-aos="fade-up">
 					<div class="container">
 						<span>MOST VIEWED</span>
-						<h2>Featured Profile of this week</h2>
-						<p class="sub-title">Are you looking to join online institutions? Now it's very simple, Sign up with Tutorly</p>
+						<h2>Profil Tutor unggulan minggu ini</h2>
+						<p class="sub-title">Apakah anda ingin bergabung pada program belajar? Mudah sekali, Daftar dengan Tutorin!</p>
 						<div class="sec-dots">
 							 <span></span>
 							 <span></span>
@@ -620,7 +620,7 @@
 									</div>
 									<div class="profile-content">
 										<h4>Willas Rorrong</h4>
-										<p>UNIX, Calculus, Trigonometry</p>
+										<p>UNIX, Calculus, Trigonometry Lecturer</p>
 									</div>
 								</div>
 								<div class="profile-rating">
@@ -646,7 +646,7 @@
 									</div>
 									<div class="profile-content">
 										<h4>Yobel</h4>
-										<p>Computer Programming</p>
+										<p>Senior Photographer</p>
 									</div>
 								</div>
 								<div class="profile-rating">
@@ -672,7 +672,7 @@
 									</div>
 									<div class="profile-content">
 										<h4>Willy Cahyadi</h4>
-										<p>ASP.NET,Computer Gaming</p>
+										<p>Computer Programmer</p>
 									</div>
 								</div>
 								<div class="profile-rating">
@@ -730,7 +730,7 @@
 								</div>
 								<div class="statistics-content-eight">
 									<span>500+</span>
-									<h3>Happy Clients</h3>
+									<h3>Client Berbahagia</h3>
 								</div>
 							</div>
 						</div>
@@ -741,7 +741,7 @@
 								</div>
 								<div class="statistics-content-eight">
 									<span>120+</span>
-									<h3>Online Appointments</h3>
+									<h3>Pertemuan Online</h3>
 								</div>
 							</div>
 						</div>
@@ -751,8 +751,8 @@
 									<i class="fas fa-user-check"></i>
 								</div>
 								<div class="statistics-content-eight">
-									<span>100%</span>
-									<h3>Job Satisfaction</h3>
+									<span>90%</span>
+									<h3>Kepuasan Pelanggan</h3>
 								</div>
 							</div>
 						</div>
@@ -767,9 +767,9 @@
 
 					<!-- Section Header -->
 					<div class="section-header-eight text-center aos" data-aos="fade-up">
-						<span>LATEST</span>
-						<h2>Blogs & News</h2>
-						<p class="sub-title">Are you looking to join online institutions? Now it's very simple, Sign up with Tutorly</p>
+						<span>Terbaru</span>
+						<h2>Blog & Berita</h2>
+						<p class="sub-title">Apakah anda ingin bergabung pada program belajar? Mudah sekali, Daftar dengan Tutorin!</p>
 						<div class="sec-dots">
 							 <span></span>
 							 <span></span>
@@ -795,9 +795,9 @@
 											</div>
 										</li>
 									</ul>
-									<h3 class="blog-title-eight"><a href="{{ route('home') }}">What is Lorem Ipsum? Lorem Ipsum is simply</a></h3>
-									<p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
-									<a href="{{ route('home') }}" class="read">Read more</a>
+									<h3 class="blog-title-eight"><a href="{{ route('home') }}">Apa itu Lorem Ipsum? Lorem Ipsum secara sederhana</a></h3>
+									<p>Lorem ipsum adalah kalimat yang biasa digunakan untuk designing. Biasanya designer menggunakan kalimat ini..</p>
+									<a href="{{ route('home') }}" class="read">Baca lebih lagi</a>
 								</div>
 							</div>
 							<!-- /Blog Post -->
@@ -820,9 +820,9 @@
 											</div>
 										</li>
 									</ul>
-									<h3 class="blog-title-eight"><a href="{{route('home')}}">Contrary to popular belief, Lorem Ipsum is</a></h3>
-									<p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
-									<a href="{{route('home')}}" class="read">Read more</a>
+									<h3 class="blog-title-eight"><a href="{{route('home')}}">Lain dari perkiraan, ternyata 'Laying fLat' adalah</a></h3>
+									<p>Negara Tiongkok akhir akhir ini diguncangkan dengan adanya fenomena 'Laying Flat'. Anak mudah lebih memilih..</p>
+									<a href="{{route('home')}}" class="read">Baca lebih lagi</a>
 								</div>
 							</div>
 							<!-- /Blog Post -->
@@ -845,9 +845,9 @@
 											</div>
 										</li>
 									</ul>
-									<h3 class="blog-title-eight"><a href="{{route('home')}}">The standard chunk of Lorem Ipsum used</a></h3>
-									<p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
-									<a href="{{route('home')}}" class="read">Read more</a>
+									<h3 class="blog-title-eight"><a href="{{route('home')}}">Chunk yang paling sering digunakan adalah Standard</a></h3>
+									<p>Siapasih belum tau dengan konsep chunk? Chunk adalah ukuran data yang...</p>
+									<a href="{{route('home')}}" class="read">Baca lebih lagi</a>
 								</div>
 							</div>
 							<!-- /Blog Post -->
@@ -876,7 +876,7 @@
 										<img src="assets/img/tutorin-logolastlastwhite.jpg" alt="logo">
 									</div>
 									<div class="footer-about-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+										<p>Tutoring Fleksibel hanya ada di Tutorin.me</p>
 									</div>
 								</div>
 								<!-- /Footer Widget -->
@@ -885,13 +885,13 @@
 							<div class="col-lg-3 col-md-6">
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-menu">
-									<h2 class="footer-title">For Mentee</h2>
+									<h2 class="footer-title">Untuk Murid</h2>
 									<ul>
-										<li><a href="{{route('home')}}">Search Mentors</a></li>
+										<li><a href="{{route('home')}}">Search tutor</a></li>
 										<li><a href="{{route('home')}}">Login</a></li>
-										<li><a href="{{route('home')}}">Register</a></li>
+										<li><a href="{{route('home')}}">Daftar</a></li>
 							    			<li><a href="{{route('home')}}">Booking</a></li>
-										<li><a href="{{route('home')}}">Mentee Dashboard</a></li>
+										<li><a href="{{route('home')}}">Dashboard Murid</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -900,13 +900,13 @@
 							<div class="col-lg-3 col-md-6">
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-menu">
-									<h2 class="footer-title">For Mentors</h2>
+									<h2 class="footer-title">Untuk Tutor</h2>
 									<ul>
 										<li><a href="{{ route('home') }}">Appointments</a></li>
 										<li><a href="{{ route('home') }}">Chat</a></li>
 										<li><a href="{{ route('home') }}">Login</a></li>
-										<li><a href="{{ route('home') }}">Register</a></li>
-										<li><a href="{{ route('home') }}">Mentor Dashboard</a></li>
+										<li><a href="{{ route('home') }}">Daftarr</a></li>
+										<li><a href="{{ route('home') }}">Tutor Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -915,7 +915,7 @@
 							<div class="col-lg-3 col-md-6">
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-contact">
-									<h2 class="footer-title">Contact Us</h2>
+									<h2 class="footer-title">Contact Kami</h2>
 									<div class="footer-contact-info">
 										<div class="footer-address">
 											<p> Universitas Ciputra,<br> Surabaya, Indonesia </p>
@@ -944,7 +944,7 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="copyright-text">
-										<p class="mb-0">&copy; 2022 Tutorly. All rights reserved.</p>
+										<p class="mb-0">&copy; 2022 Tutorin. All rights reserved.</p>
 									</div>
 								</div>
 								<div class="col-md-6">
