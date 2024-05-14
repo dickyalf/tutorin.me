@@ -27,7 +27,7 @@
                     <li>
                         <a href="{{ route('home') }}">Home</a>
                     </li>
-                    <li class="has-submenu">
+                    {{-- <li class="has-submenu">
                         <a href="">Mentor <i class="fas fa-chevron-circle-down"></i></a>
                         <ul class="submenu">
                             <li><a href="{{ route('home') }}">Mentor Dashboard</a></li>
@@ -72,7 +72,7 @@
                             <li><a href="{{ route('home') }}">Profile Settings</a></li>
                             <li><a href="{{ route('home') }}">Change Password</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
                     <li class="has-submenu">
                         <a href="">Pages <i class="fas fa-chevron-circle-down"></i></a>
                         <ul class="submenu">
@@ -93,14 +93,14 @@
                             <li><a href="{{ route('home') }}">Forgot Password</a></li>
                         </ul>
                     </li>
-                    <li class="has-submenu">
+                    {{-- <li class="has-submenu">
                         <a href="">Blog <i class="fas fa-chevron-circle-down"></i></a>
                         <ul class="submenu">
                             <li><a href="{{ route('home') }}">Blog List</a></li>
                             <li><a href="{{ route('home') }}">Blog Grid</a></li>
                             <li><a href="{{ route('home') }}">Blog Details</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
             <ul class="nav header-navbar-rht">

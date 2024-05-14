@@ -50,9 +50,9 @@
     <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
 
-     <!-- Sticky Sidebar JS -->
-     <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
-     <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+    <!-- Sticky Sidebar JS -->
+    <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+    <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
 
 
 </body>
