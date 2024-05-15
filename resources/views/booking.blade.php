@@ -9,8 +9,8 @@
             <div class="col-md-12 col-12">
                 <nav aria-label="breadcrumb" class="page-breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="{{route('homepage')}}">homepage</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Booking</li>
+                        <li class="breadcrumb-item"><a href="{{route('homepage')}}">Beranda</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Pemesanan</li>
                     </ol>
                 </nav>
                 <h2 class="breadcrumb-title">Booking</h2>
