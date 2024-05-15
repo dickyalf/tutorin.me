@@ -4,7 +4,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-		<title>Tutorly</title>
+		<title>Tutorin</title>
 
 		<!-- Favicon -->
 		<link rel="icon" href="assets/img/tutorin-logo.png" type="image/x-icon">
