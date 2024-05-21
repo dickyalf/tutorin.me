@@ -30,7 +30,7 @@
                                 <div class="mentor-widget">
                                     <div class="user-info-left align-items-center">
                                         <div class="mentor-img d-flex flex-wrap justify-content-center">
-                                            <div class="pro-avatar">WR</div>
+                                            <div class="pro-avatar">ET</div>
                                             <div class="rating text-center">
                                                 <i class="fas fa-star filled"></i>
                                                 <i class="fas fa-star filled"></i>
@@ -40,12 +40,12 @@
                                             </div>
                                             <div class="mentor-details m-0">
                                                 <p class="user-location m-0"><i class="fas fa-map-marker-alt"></i>
-                                                    Bangladesh, India</p>
+                                                    Surabaya, Indonesia</p>
                                             </div>
                                         </div>
                                         <div class="user-info-cont">
-                                            <h4 class="usr-name">Willas Rorrong</h4>
-                                            <p class="mentor-type">Fullstack Developer</p>
+                                            <h4 class="usr-name">Evan Tanuwijaya</h4>
+                                            <p class="mentor-type">Fullstack Developer, AI Enthusiast</p>
                                             <div class="mentor-action">
                                                 <p class="mentor-type social-title">Contact Me</p>
                                                 <a href="javascript:void(0)" class="btn-blue">
@@ -80,19 +80,19 @@
                                 <div class="widget about-widget custom-about mb-0">
                                     <h4 class="widget-title">About Me</h4>
                                     <hr />
-                                    <p>Saya adalah Willas Rorrong, seorang tutor berpengalaman dengan latar belakang
-                                        pendidikan dalam Sastra Inggris dari Universitas Indonesia. Saya memiliki gelar
-                                        Master of Arts (M.A) dan telah mengajar selama lebih dari 10 tahun. Selama waktu
+                                    <p>Saya adalah Evan Tanuwijaya, seorang Dosen berpengalaman dengan latar belakang
+                                        pendidikan dalam Programming dari Universitas Ciputra. Saya memiliki gelar
+                                        Master of Komputer dan telah mengajar selama lebih dari 4 tahun. Selama waktu
                                         tersebut, saya telah membantu ratusan siswa dalam meningkatkan kemampuan
-                                        literasi dan apresiasi terhadap literatur Inggris.</p>
-                                    <p>Sebagai mentor, saya percaya pada pendekatan yang disesuaikan untuk setiap siswa,
+                                        literasi dan apresiasi terhadap programming.</p>
+                                    <p>Sebagai Tutor, saya percaya pada pendekatan yang disesuaikan untuk setiap siswa,
                                         memastikan bahwa setiap sesi tidak hanya informatif tetapi juga menarik dan
                                         sesuai dengan kebutuhan belajar mereka. Saya mengkhususkan diri dalam membantu
                                         siswa mempersiapkan ujian literatur, penulisan esai kritis, dan pemahaman
-                                        mendalam tentang karya-karya besar literatur Inggris.</p>
+                                        mendalam tentang project-project programming.</p>
                                     <p>Komitmen saya adalah untuk membimbing siswa mencapai potensi penuh mereka melalui
                                         sesi yang interaktif dan mendukung. Saya menantikan kesempatan untuk bekerja
-                                        sama dengan Anda dalam mengeksplorasi kedalaman dan kekayaan sastra Inggris.</p>
+                                        sama dengan Anda dalam mengeksplorasi kedalaman dan kekayaan programming.</p>
                                 </div>
                                 <!-- /About Details -->
                             </div>
@@ -111,7 +111,7 @@
                                                 <div class="experience-content">
                                                     <div class="timeline-content">
                                                         <span>Jenis Kelamin</span>
-                                                        <div class="row-result">Perempuan</div>
+                                                        <div class="row-result">Pria</div>
                                                     </div>
                                                 </div>
                                             </li>
@@ -119,7 +119,7 @@
                                                 <div class="experience-content">
                                                     <div class="timeline-content">
                                                         <span>Tanggal Lahir</span>
-                                                        <div class="row-result">01 - 02 - 2000</div>
+                                                        <div class="row-result">14 - 07 - 1996</div>
                                                     </div>
                                                 </div>
                                             </li>
@@ -143,8 +143,16 @@
                                             <li>
                                                 <div class="experience-content">
                                                     <div class="timeline-content">
-                                                        <span>Universitas</span>
-                                                        <div class="row-result">Universitas Cina</div>
+                                                        <span>Universitas S1</span>
+                                                        <div class="row-result">Universitas Ciputra</div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="experience-content">
+                                                    <div class="timeline-content">
+                                                        <span>Universitas S2</span>
+                                                        <div class="row-result">Insitut Teknologi Sepuluh November</div>
                                                     </div>
                                                 </div>
                                             </li>
@@ -159,8 +167,16 @@
                                             <li>
                                                 <div class="experience-content">
                                                     <div class="timeline-content">
-                                                        <span>Type of Degree</span>
+                                                        <span>Type of Degree S1</span>
                                                         <div class="row-result">S.Kom (Sarjana Komputer)</div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="experience-content">
+                                                    <div class="timeline-content">
+                                                        <span>Type of Degree S2</span>
+                                                        <div class="row-result">M.Kom (Magister Komputer)</div>
                                                     </div>
                                                 </div>
                                             </li>
@@ -184,8 +200,8 @@
                                             <li>
                                                 <div class="experience-content">
                                                     <div class="timeline-content">
-                                                        <span>Alamat 1</span>
-                                                        <div class="row-result">Kos Bu Ika, Sambikerep</div>
+                                                        <span>Alamat</span>
+                                                        <div class="row-result">Citraland, Sambikerep</div>
                                                     </div>
                                                 </div>
                                             </li>

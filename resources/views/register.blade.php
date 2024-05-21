@@ -101,11 +101,12 @@
                                             tabindex="-1" href="javascript:void(0);"> Terms.</a>
                                     </div>
                                 </div>
-                                <button class="btn btn-primary login-btn" type="submit">Buat Akun</button>
+
+                            </form>
+                            <a href="{{ route('student-view') }}"><button class="btn btn-primary login-btn" type="submit">Buat Akun</button></a>
                                 <div class="account-footer text-center mt-3">
                                     Already have an account? <a class="forgot-link mb-0" href="{{route('login')}}">Login</a>
                                 </div>
-                            </form>
                             <!-- /Register Form -->
 
                         </div>

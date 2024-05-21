@@ -61,20 +61,22 @@
                                 <div class="form-group">
                                     <label class="form-control-label">Password</label>
                                     <div class="pass-group">
-                                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                                        <input id="password" type="password"
+                                            class="form-control @error('password') is-invalid @enderror" name="password"
+                                            required autocomplete="current-password">
                                         <span class="fas fa-eye toggle-password"></span>
                                     </div>
                                     @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
                                 </div>
                                 <div class="text-end">
                                     <a class="forgot-link" href="forgot-password.html">Lupa password ?</a>
                                 </div>
-                                <a href="{{ route('student-view') }}"><button class="btn btn-primary login-btn"
-                                        type="button">Login</button></a>
+                                <a href="{{ route('mentor-view') }}"><button class="btn btn-primary login-btn"
+                                        type="button">Login</button></a>    
                                 <div class="text-center dont-have">Don’t have an account? <a
                                         href="{{ route('register') }}">Register</a>
                                 </div>

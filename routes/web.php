@@ -40,8 +40,23 @@ Route::post('/register-action', [AuthController::class, 'registerAction'])->name
 
 // Auth::routes();
 
+Route::get('/mentor-view', function(){
+    return view('mentor-view');
+})->name('mentor-view');
+
+Route::get('/student-profile', function(){
+    return view('student-profile');
+})->name('student-profile');
+
+Route::get('/mentor-booking', function(){
+    return view('mentor-booking');
+})->name('mentor-booking');
+
 Route::get('/student-view', function(){
     return view('student-view');
 })->name('student-view');
 
+Route::get('/student-booking', function(){
+    return view('student-booking');
+})->name('student-booking');
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
