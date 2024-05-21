@@ -1,6 +1,6 @@
 @extends('layouts.app')
-@section('main_content')
 
+@section('main_content')
 <!-- Breadcrumb -->
 <div class="breadcrumb-bar">
     <div class="container-fluid">
@@ -29,34 +29,37 @@
             <!-- Sidebar -->
             <div class="profile-sidebar">
                 <div class="user-widget">
-                    <div class="pro-avatar">JD</div>
+                    <div class="pro-avatar">WT</div>
                     <div class="rating">
-                        <i class="fas fa-star filled"></i>
-                        <i class="fas fa-star filled"></i>
-                        <i class="fas fa-star filled"></i>
-                        <i class="fas fa-star filled"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
                     </div>
                     <div class="user-info-cont">
-                        <h4 class="usr-name">Jonathan Doe</h4>
-                        <p class="mentor-type">English Literature (M.A)</p>
+                        <h4 class="usr-name">Willas Tobing</h4>
+                        <p class="mentor-type">Mahasiswa Universitas Ciputra</p>
                     </div>
                 </div>
-                <div class="progress-bar-custom">
+                {{-- <div class="progress-bar-custom">
                     <h6>Complete your profiles ></h6>
                     <div class="pro-progress">
                         <div class="tooltip-toggle" tabindex="0"></div>
                         <div class="tooltip">80%</div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="custom-sidebar-nav">
                     <ul>
-                        <li><a href="dashboard-mentee.html" class="active"><i class="fas fa-home"></i>Dashboard <span><i class="fas fa-chevron-right"></i></span></a></li>
+                        {{-- <li><a href="dashboard-mentee.html" class="active"><i class="fas fa-home"></i>Dashboard <span><i class="fas fa-chevron-right"></i></span></a></li>
                         <li><a href="bookings-mentee.html"><i class="fas fa-clock"></i>Bookings <span><i class="fas fa-chevron-right"></i></span></a></li>
                         <li><a href="chat-mentee.html"><i class="fas fa-comments"></i>Messages <span><i class="fas fa-chevron-right"></i></span></a></li>
-                        <li><a href="favourites.html"><i class="fas fa-star"></i>Favourites <span><i class="fas fa-chevron-right"></i></span></a></li>
-                        <li><a href="profile-mentee.html"><i class="fas fa-user-cog"></i>Profile <span><i class="fas fa-chevron-right"></i></span></a></li>
-                        <li><a href="login.html"><i class="fas fa-sign-out-alt"></i>Logout <span><i class="fas fa-chevron-right"></i></span></a></li>
+                        <li><a href="favourites.html"><i class="fas fa-star"></i>Favourites <span><i class="fas fa-chevron-right"></i></span></a></li> --}}
+                        {{-- <li><a href="profile-mentee.html"><i class="fas fa-user-cog"></i>Profile <span><i class="fas fa-chevron-right"></i></span></a></li>
+                        <li><a href="login.html"><i class="fas fa-sign-out-alt"></i>Logout <span><i class="fas fa-chevron-right"></i></span></a></li> --}}
+                        <li><a href="{{route('student-view')}}" class="active"><i class="fas fa-home"></i>Dashboard<span></span></a></li>
+                        <li><a href="{{route('student-booking')}}"><i class="fas fa-clock"></i>Bookings<span></span></a></li>
+                        <li><a href="chat-mentee.html"><i class="fas fa-comments"></i>Messages<span></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -75,7 +78,7 @@
                                 </div>
                             </div>
                             <div class="dash-widget-info">
-                                <h3>23</h3>
+                                <h3>1</h3>
                                 <h6>Appointments</h6>
                             </div>
                         </div>
@@ -89,7 +92,7 @@
                                 </div>
                             </div>
                             <div class="dash-widget-info">
-                                <h3>33</h3>
+                                <h3>0</h3>
                                 <h6>Mentoring Points</h6>
                             </div>
                         </div>
@@ -103,7 +106,7 @@
                                 </div>
                             </div>
                             <div class="dash-widget-info">
-                                <h3>14</h3>
+                                <h3>-</h3>
                                 <h6>Rank</h6>
                             </div>
                         </div>
@@ -131,78 +134,12 @@
                                                 <td>
                                                     <h2 class="table-avatar">
                                                         <a href="profile.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/user/user14.jpg" alt="User Image"></a>
-                                                        <a href="profile.html">Tyrone Roberts<span>tyroneroberts@adobe.com</span></a>
+                                                        <a href="profile.html">Evan Tanuwijaya<span>evam@gmail.com</span></a>
                                                     </h2>
                                                 </td>
-                                                <td>08 April 2020</td>
-                                                <td class="text-center"><span class="pending">PENDING</span></td>
-                                                <td class="text-center"><a href="profile-mentee.html" class="btn btn-sm bg-info-light"><i class="far fa-eye"></i> View</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h2 class="table-avatar">
-                                                        <a href="profile.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/user/user15.jpg" alt="User Image"></a>
-                                                        <a href="profile.html">Julie Pennington <span>julie@adobe.com</span></a>
-                                                    </h2>
-                                                </td>
-                                                <td>08 April 2020</td>
-                                                <td class="text-center"><span class="pending">PENDING</span></td>
-                                                <td class="text-center"><a href="profile-mentee.html" class="btn btn-sm bg-info-light"><i class="far fa-eye"></i> View</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h2 class="table-avatar">
-                                                        <a href="profile.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/user/user12.jpg" alt="User Image"></a>
-                                                        <a href="profile.html">Allen Davis <span>allendavis@adobe.com</span></a>
-                                                    </h2>
-                                                </td>
-                                                <td>08 April 2020</td>
-                                                <td class="text-center"><span class="pending">PENDING</span></td>
-                                                <td class="text-center"><a href="profile-mentee.html" class="btn btn-sm bg-info-light"><i class="far fa-eye"></i> View</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h2 class="table-avatar">
-                                                        <a href="profile.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/user/user13.jpg" alt="User Image"></a>
-                                                        <a href="profile.html">Patricia Manzi <span>patriciamanzi@adobe.com</span></a>
-                                                    </h2>
-                                                </td>
-                                                <td>08 April 2020</td>
-                                                <td class="text-center"><span class="accept">ACCEPTED</span></td>
-                                                <td class="text-center"><a href="profile-mentee.html" class="btn btn-sm bg-info-light"><i class="far fa-eye"></i> View</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h2 class="table-avatar">
-                                                        <a href="profile.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/user/user5.jpg" alt="User Image"></a>
-                                                        <a href="profile.html">Olive Lawrence <span>olivelawrence@adobe.com</span></a>
-                                                    </h2>
-                                                </td>
-                                                <td>08 April 2020</td>
-                                                <td class="text-center"><span class="accept">ACCEPTED</span></td>
-                                                <td class="text-center"><a href="profile-mentee.html" class="btn btn-sm bg-info-light"><i class="far fa-eye"></i> View</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h2 class="table-avatar">
-                                                        <a href="profile.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/user/user10.jpg" alt="User Image"></a>
-                                                        <a href="profile.html">Frances Foster <span>frances@adobe.com</span></a>
-                                                    </h2>
-                                                </td>
-                                                <td>08 April 2020</td>
-                                                <td class="text-center"><span class="accept">ACCEPTED</span></td>
-                                                <td class="text-center"><a href="profile-mentee.html" class="btn btn-sm bg-info-light"><i class="far fa-eye"></i> View</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h2 class="table-avatar">
-                                                        <a href="profile.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/user/user7.jpg" alt="User Image"></a>
-                                                        <a href="profile.html">Deloris Briscoe <span>delorisbriscoe@adobe.com</span></a>
-                                                    </h2>
-                                                </td>
-                                                <td>08 April 2020</td>
-                                                <td class="text-center"><span class="reject">REJECTED</span></td>
-                                                <td class="text-center"><a href="profile-mentee.html" class="btn btn-sm bg-info-light"><i class="far fa-eye"></i> View</a></td>
+                                                <td>12 April 2024</td>
+                                                <td class="text-center"><span class="pending">Pending</span></td>
+                                                <td class="text-center"><a href="{{route('profile')}}" class="btn btn-sm bg-info-light"><i class="far fa-eye"></i> View</a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -219,5 +156,4 @@
     </div>
 
 </div>
-<!-- /Page Content -->
 @endsection
