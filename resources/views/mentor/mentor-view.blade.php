@@ -57,7 +57,14 @@
                                             class="fas fa-home"></i>Dashboard<span></span></a></li>
                                 <li><a href="{{ route('mentor-booking') }}"><i
                                             class="fas fa-clock"></i>Bookings<span></span></a></li>
-                                <li><a href="chat-mentee.html"><i class="fas fa-comments"></i>Messages<span></span></a></li>
+                                <li><a href="{{route('mentor-message')}}"><i class="fas fa-comments"></i>Messages<span></span></a></li>
+										<li><a href="{{ route('mentor-schedule') }}"><i class="fas fa-hourglass-start"></i>Schedule<span></span></a></li>
+										<li><a href="{{ route('mentor-invoice') }}"><i class="fas fa-file-invoice"></i>Invoices<span></span></a></li>
+										<li><a href="{{route('mentor-review')}}"><i class="fas fa-eye"></i>Reviews <span></i></span></a></li>
+										<li><a href="{{route('mentor-appointments')}}"><i class="fab fa-blogger-b"></i>Appointments <span></i></span></a></li>
+										{{-- <li><a href="blog.html"><i class="fab fa-blogger-b"></i>Blog <span></span></a></li> --}}
+                                        <li><a href="{{route('mentor-profile-settings')}}"><i class="fas fa-user-cog"></i>Profile <span></span></a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -140,7 +147,7 @@
                                                     </td>
                                                     <td>12 April 2024</td>
                                                     <td class="text-center"><span class="pending">PENDING</span></td>
-                                                    <td class="text-center"><a href="profile-mentee.html"
+                                                    <td class="text-center"><a href="{{route('student-profile')}}"
                                                             class="btn btn-sm bg-info-light"><i
                                                                 class="far fa-eye"></i>View</a></td>
                                                 </tr>
@@ -150,7 +157,7 @@
                                                             <a href="profile.html" class="avatar avatar-sm me-2"><img
                                                                     class="avatar-img rounded-circle"
                                                                     src="assets/img/user/user10.jpg" alt="User Image"></a>
-                                                            <a href="profile.html">Bryan
+                                                            <a href="{{route('student-profile')}}">Bryan
                                                                 Samuel<span>ian@aespa.com</span></a>
                                                         </h2>
                                                     </td>
@@ -166,7 +173,7 @@
                                                             <a href="profile.html" class="avatar avatar-sm me-2"><img
                                                                     class="avatar-img rounded-circle"
                                                                     src="assets/img/user/user7.jpg" alt="User Image"></a>
-                                                            <a href="profile.html">Nathan
+                                                            <a href="{{route('student-profile')}}">Nathan
                                                                 Darrel<span>natha@coco.com</span></a>
                                                         </h2>
                                                     </td>

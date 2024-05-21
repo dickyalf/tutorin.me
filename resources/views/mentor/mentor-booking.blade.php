@@ -51,11 +51,20 @@
                     <div class="custom-sidebar-nav">
                         <ul>
                             {{-- <li><a href="dashboard-mentee.html" class="active"><i class="fas fa-home"></i>Dashboard <span><i class="fas fa-chevron-right"></i></span></a></li>
-                            <li><a href="bookings-mentee.html"><i class="fas fa-clock"></i>Bookings <span><i class="fas fa-chevron-right"></i></span></a></li>
-                            <li><a href="chat-mentee.html"><i class="fas fa-comments"></i>Messages <span><i class="fas fa-chevron-right"></i></span></a></li> --}}
-                            <li><a href="{{route('mentor-view')}}" ><i class="fas fa-home"></i>Dashboard<span></span></a></li>
-                            <li><a href="{{route('mentor-booking')}}" class="active"><i class="fas fa-clock"></i>Bookings<span></span></a></li>
-                            <li><a href="chat-mentee.html"><i class="fas fa-comments"></i>Messages<span></span></a></li>
+                        <li><a href="bookings-mentee.html"><i class="fas fa-clock"></i>Bookings <span><i class="fas fa-chevron-right"></i></span></a></li>
+                        <li><a href="chat-mentee.html"><i class="fas fa-comments"></i>Messages <span><i class="fas fa-chevron-right"></i></span></a></li> --}}
+                        <li><a href="{{ route('mentor-view') }}" ><i
+                            class="fas fa-home"></i>Dashboard<span></span></a></li>
+                <li><a href="{{ route('mentor-booking') }}" class="active"><i
+                            class="fas fa-clock"></i>Bookings<span></span></a></li>
+                <li><a href="{{route('mentor-message')}}"><i class="fas fa-comments"></i>Messages<span></span></a></li>
+                        <li><a href="{{ route('mentor-schedule') }}"><i class="fas fa-hourglass-start"></i>Schedule<span></span></a></li>
+                        <li><a href="{{ route('mentor-invoice') }}"><i class="fas fa-file-invoice"></i>Invoices<span></span></a></li>
+                        <li><a href="{{route('mentor-review')}}"><i class="fas fa-eye"></i>Reviews <span></i></span></a></li>
+                        <li><a href="{{route('mentor-appointments')}}"><i class="fab fa-blogger-b"></i>Appointments <span></i></span></a></li>
+                        <li><a href="{{route('mentor-profile-settings')}}"><i class="fas fa-user-cog"></i>Profile <span></span></a></li>
+
+                        {{-- <li><a href="blog.html"><i class="fab fa-blogger-b"></i>Blog <span></span></a></li> --}}
                         </ul>
                     </div>
                 </div>                <!-- /Sidebar -->
@@ -64,9 +73,13 @@
             <div class="col-md-7 col-lg-8 col-xl-9">
                 <h3 class="pb-3">Booking Summary</h3>
                 <!-- Mentee List Tab -->
+
                 <div class="tab-pane show active" id="mentee-list">
+
                     <div class="card card-table">
+
                         <div class="card-body">
+
                             <div class="table-responsive">
                                 <table class="table table-hover table-center mb-0">
                                     <thead>

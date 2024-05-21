@@ -25,41 +25,48 @@
             <div class="row">
                 <div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
 
-                <!-- Sidebar -->
-                <div class="profile-sidebar">
-                    <div class="user-widget">
-                        <div class="pro-avatar">ET</div>
-                        <div class="rating">
-                            <i class="fas fa-star "></i>
-                            <i class="fas fa-star "></i>
-                            <i class="fas fa-star "></i>
-                            <i class="fas fa-star "></i>
-                            <i class="fas fa-star "></i>
+                    <!-- Sidebar -->
+                    <div class="profile-sidebar">
+                        <div class="user-widget">
+                            <div class="pro-avatar">WT</div>
+                            <div class="rating">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star "></i>
+                            </div>
+                            <div class="user-info-cont">
+                                <h4 class="usr-name">Willas Tobing</h4>
+                                <p class="mentor-type">Mahasiswa Universitas Ciputra</p>
+                            </div>
                         </div>
-                        <div class="user-info-cont">
-                            <h4 class="usr-name">Willas Tobing</h4>
-                            <p class="mentor-type">Mahasiswa Universitas Ciputra</p>
+                        {{-- <div class="progress-bar-custom">
+                            <h6>Complete your profiles ></h6>
+                            <div class="pro-progress">
+                                <div class="tooltip-toggle" tabindex="0"></div>
+                                <div class="tooltip">80%</div>
+                            </div>
+                        </div> --}}
+                        <div class="custom-sidebar-nav">
+                            <ul>
+                                {{-- <li><a href="dashboard-mentee.html" class="active"><i class="fas fa-home"></i>Dashboard <span><i class="fas fa-chevron-right"></i></span></a></li>
+                                <li><a href="bookings-mentee.html"><i class="fas fa-clock"></i>Bookings <span><i class="fas fa-chevron-right"></i></span></a></li>
+                                <li><a href="chat-mentee.html"><i class="fas fa-comments"></i>Messages <span><i class="fas fa-chevron-right"></i></span></a></li>
+                                <li><a href="favourites.html"><i class="fas fa-star"></i>Favourites <span><i class="fas fa-chevron-right"></i></span></a></li> --}}
+                                {{-- <li><a href="profile-mentee.html"><i class="fas fa-user-cog"></i>Profile <span><i class="fas fa-chevron-right"></i></span></a></li>
+                                <li><a href="login.html"><i class="fas fa-sign-out-alt"></i>Logout <span><i class="fas fa-chevron-right"></i></span></a></li> --}}
+                                <li><a href="{{route('student-view')}}" ><i class="fas fa-home"></i>Dashboard<span></span></a></li>
+                                <li><a href="{{route('student-booking')}}" class="active"><i class="fas fa-clock"></i>Bookings<span></span></a></li>
+                                <li><a href="{{route('student-message')}}"><i class="fas fa-comments"></i>Messages<span></span></a></li>
+                                <li><a href="{{route('student-profile-settings')}}"><i class="fas fa-user-cog"></i>Profile <span></span></a></li>
+
+                            </ul>
                         </div>
                     </div>
-                    {{-- <div class="progress-bar-custom">
-                        <h6>Complete your profiles ></h6>
-                        <div class="pro-progress">
-                            <div class="tooltip-toggle" tabindex="0"></div>
-                            <div class="tooltip">80%</div>
-                        </div>
-                    </div> --}}
-                    <div class="custom-sidebar-nav">
-                        <ul>
-                            {{-- <li><a href="dashboard-mentee.html" class="active"><i class="fas fa-home"></i>Dashboard <span><i class="fas fa-chevron-right"></i></span></a></li>
-                            <li><a href="bookings-mentee.html"><i class="fas fa-clock"></i>Bookings <span><i class="fas fa-chevron-right"></i></span></a></li>
-                            <li><a href="chat-mentee.html"><i class="fas fa-comments"></i>Messages <span><i class="fas fa-chevron-right"></i></span></a></li> --}}
-                            <li><a href="{{route('student-view')}}" ><i class="fas fa-home"></i>Dashboard<span></span></a></li>
-                            <li><a href="{{route('student-booking')}}" class="active"><i class="fas fa-clock"></i>Bookings<span></span></a></li>
-                            <li><a href="chat-mentee.html"><i class="fas fa-comments"></i>Messages<span></span></a></li>
-                        </ul>
+                    <!-- /Sidebar -->
+
                     </div>
-                </div>                <!-- /Sidebar -->
-                </div>
             <!-- Booking summary -->
             <div class="col-md-7 col-lg-8 col-xl-9">
                 <h3 class="pb-3">Booking Summary</h3>
