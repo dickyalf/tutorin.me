@@ -59,7 +59,7 @@
                         <li><a href="login.html"><i class="fas fa-sign-out-alt"></i>Logout <span><i class="fas fa-chevron-right"></i></span></a></li> --}}
                         <li><a href="{{route('student-view')}}" class="active"><i class="fas fa-home"></i>Dashboard<span></span></a></li>
                         <li><a href="{{route('student-booking')}}"><i class="fas fa-clock"></i>Bookings<span></span></a></li>
-                        <li><a href="chat-mentee.html"><i class="fas fa-comments"></i>Messages<span></span></a></li>
+                        <li><a href="{{route('student-message')}}"><i class="fas fa-comments"></i>Messages<span></span></a></li>
                     </ul>
                 </div>
             </div>

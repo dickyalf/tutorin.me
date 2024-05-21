@@ -12,7 +12,7 @@ Route::get('/welcome', function (){
 })->name('welcome');
 
 Route::get('/profile', function () {
-    return view('profile');
+    return view('mentor/profile');
 })->name('profile');
 
 Route::get('/booking', function () {
@@ -41,22 +41,46 @@ Route::post('/register-action', [AuthController::class, 'registerAction'])->name
 // Auth::routes();
 
 Route::get('/mentor-view', function(){
-    return view('mentor-view');
+    return view('mentor/mentor-view');
 })->name('mentor-view');
 
-Route::get('/student-profile', function(){
-    return view('student-profile');
-})->name('student-profile');
+Route::get('/mentor-schedule', function(){
+    return view('mentor/mentor-schedule');
+})->name('mentor-schedule');
+
+Route::get('/mentor-invoice', function(){
+    return view('mentor/mentor-invoice');
+})->name('mentor-invoice');
 
 Route::get('/mentor-booking', function(){
-    return view('mentor-booking');
+    return view('mentor/mentor-booking');
 })->name('mentor-booking');
 
+Route::get('/mentor-review', function(){
+    return view('mentor/mentor-review');
+})->name('mentor-review');
+
+Route::get('/mentor-message', function(){
+    return view('mentor/mentor-message');
+})->name('mentor-message');
+
+Route::get('/mentor-appointments', function(){
+    return view('mentor/mentor-appointments');
+})->name('mentor-appointments');
+
+Route::get('/student-profile', function(){
+    return view('student/student-profile');
+})->name('student-profile');
+
 Route::get('/student-view', function(){
-    return view('student-view');
+    return view('student/student-view');
 })->name('student-view');
 
 Route::get('/student-booking', function(){
-    return view('student-booking');
+    return view('student/student-booking');
 })->name('student-booking');
+
+Route::get('/student-message', function(){
+    return view('student/student-message');
+})->name('student-message');
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
