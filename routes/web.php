@@ -68,6 +68,10 @@ Route::get('/mentor-appointments', function(){
     return view('mentor/mentor-appointments');
 })->name('mentor-appointments');
 
+Route::get('/mentor-profile-settings', function(){
+    return view('mentor/mentor-profile-settings');
+})->name('mentor-profile-settings');
+
 Route::get('/student-profile', function(){
     return view('student/student-profile');
 })->name('student-profile');
@@ -83,4 +87,8 @@ Route::get('/student-booking', function(){
 Route::get('/student-message', function(){
     return view('student/student-message');
 })->name('student-message');
+
+Route::get('/student-profile-settings', function(){
+    return view('student/student-profile-settings');
+})->name('student-profile-settings');
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

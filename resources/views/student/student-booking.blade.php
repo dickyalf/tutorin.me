@@ -59,6 +59,8 @@
                                 <li><a href="{{route('student-view')}}" ><i class="fas fa-home"></i>Dashboard<span></span></a></li>
                                 <li><a href="{{route('student-booking')}}" class="active"><i class="fas fa-clock"></i>Bookings<span></span></a></li>
                                 <li><a href="{{route('student-message')}}"><i class="fas fa-comments"></i>Messages<span></span></a></li>
+                                <li><a href="{{route('student-profile-settings')}}"><i class="fas fa-user-cog"></i>Profile <span></span></a></li>
+
                             </ul>
                         </div>
                     </div>

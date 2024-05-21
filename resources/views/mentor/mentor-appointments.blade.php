@@ -63,6 +63,8 @@
                         <li><a href="{{route('mentor-review')}}"><i class="fas fa-eye"></i>Reviews <span></i></span></a></li>
                         <li><a href="{{route('mentor-appointments')}}" class="active"><i class="fab fa-blogger-b"></i>Appointments <span></i></span></a></li>
                         {{-- <li><a href="blog.html"><i class="fab fa-blogger-b"></i>Blog <span></span></a></li> --}}
+                        <li><a href="{{route('mentor-profile-settings')}}"><i class="fas fa-user-cog"></i>Profile <span></span></a></li>
+
                         </ul>
                     </div>
                 </div>
