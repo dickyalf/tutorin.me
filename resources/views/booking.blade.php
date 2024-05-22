@@ -60,7 +60,7 @@
                             <i class="fas fa-chevron-down ms-2"></i>
                         </div>
                     </div>
-                </div>
+                </div>  
                 <!-- Schedule Widget -->
                 <div class="card booking-schedule schedule-widget">
 

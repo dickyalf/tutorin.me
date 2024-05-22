@@ -6,7 +6,7 @@ Version      : 1.0
 
 (function($) {
     "use strict";
-		
+
 	if($('.toggle-password').length > 0) {
 		$(document).on('click', '.toggle-password', function() {
 			$(this).toggleClass("fa-eye fa-eye-slash");
@@ -21,7 +21,7 @@ Version      : 1.0
 
 
 	// Stick Sidebar
-	
+
 	if ($(window).width() > 767) {
 		if($('.theiaStickySidebar').length > 0) {
 			$('.theiaStickySidebar').theiaStickySidebar({
@@ -30,14 +30,14 @@ Version      : 1.0
 			});
 		}
 	}
-	
+
 	// Sidebar
-	
+
 	if($(window).width() <= 991){
 	var Sidemenu = function() {
 		this.$menuItem = $('.main-nav a');
 	};
-	
+
 	function init() {
 		var $this = Sidemenu;
 		$('.main-nav a').on('click', function(e) {
@@ -59,18 +59,18 @@ Version      : 1.0
 	// Sidebar Initiate
 	init();
 	}
-	
+
 	// Select 2
-	
+
 	if($('.select').length > 0) {
 		$('.select').select2({
 			minimumResultsForSearch: -1,
 			width: '100%'
 		});
 	}
-	
+
 	// Date Time Picker
-	
+
 	if($('.datetimepicker').length > 0) {
 		$('.datetimepicker').datetimepicker({
 			format: 'DD/MM/YYYY',
@@ -82,7 +82,7 @@ Version      : 1.0
 			}
 		});
 	}
-	
+
 	// Floating Label
 
 	if($('.floating').length > 0 ){
@@ -90,9 +90,9 @@ Version      : 1.0
 		$(this).parents('.form-focus').toggleClass('focused', (e.type === 'focus' || this.value.length > 0));
 		}).trigger('blur');
 	}
-	
+
 	// Mobile menu sidebar overlay
-	
+
 	$('.header-fixed').append('<div class="sidebar-overlay"></div>');
 	$(document).on('click', '#mobile_btn', function() {
 		$('main-wrapper').toggleClass('slide-nav');
@@ -100,13 +100,13 @@ Version      : 1.0
 		$('html').addClass('menu-opened');
 		return false;
 	});
-	
+
 	$(document).on('click', '.sidebar-overlay', function() {
 		$('html').removeClass('menu-opened');
 		$(this).removeClass('opened');
 		$('main-wrapper').removeClass('slide-nav');
 	});
-	
+
 	$(document).on('click', '#menu_close', function() {
 		$('html').removeClass('menu-opened');
 		$('.sidebar-overlay').removeClass('opened');
@@ -121,12 +121,12 @@ Version      : 1.0
 			$(".header-eight").addClass("sticky");
 		}
 		else{
-			$(".header-eight").removeClass("sticky");  	
+			$(".header-eight").removeClass("sticky");
 		}
 	})
-	
+
 	// Tooltip
-	
+
 	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 	  return new bootstrap.Tooltip(tooltipTriggerEl)
@@ -187,7 +187,7 @@ Version      : 1.0
 			arrows: true,
 			fade: true,
 			asNavFor: '.client-img.slider-nav'
-		});																										
+		});
 	}
 
 	if($('.client-img.slider-nav').length > 0) {
@@ -199,7 +199,7 @@ Version      : 1.0
 			arrows: false,
 			centerMode: true,
 			focusOnSelect: true
-			
+
 		});
 	}
 
@@ -275,14 +275,14 @@ Version      : 1.0
 	}
 
 	// Add More Hours
-	
+
     $(".hours-info").on('click','.trash', function () {
 		$(this).closest('.hours-cont').remove();
 		return false;
     });
 
     $(".add-hours").on('click', function () {
-		
+
 		var hourscontent = '<div class="row form-row hours-cont">' +
 			'<div class="col-12 col-md-10">' +
 				'<div class="row form-row">' +
@@ -292,7 +292,7 @@ Version      : 1.0
 							'<select class="form-control form-select">' +
 								'<option>Select</option>' +
 								'<option>12.00 am</option>' +
-								'<option>1.00 am</option>' + 
+								'<option>1.00 am</option>' +
 								'<option>2.00 am</option>' +
 								'<option>3.00 am</option>' +
 								'<option>4.00 am</option>' +
@@ -303,17 +303,17 @@ Version      : 1.0
 								'<option>9.00 am</option>' +
 								'<option>10.00 am</option>' +
 								'<option>11.00 am</option>' +
-								'<option>1.00 pm</option>' + 
-								'<option>2.00 pm</option>' + 
-								'<option>3.00 pm</option>' + 
-								'<option>4.00 pm</option>' + 
-								'<option>5.00 pm</option>' + 
-								'<option>6.00 pm</option>' + 
-								'<option>7.00 pm</option>' + 
-								'<option>8.00 pm</option>' + 
-								'<option>9.00 pm</option>' + 
-								'<option>10.00 pm</option>' + 
-								'<option>11.00 pm</option>' + 
+								'<option>1.00 pm</option>' +
+								'<option>2.00 pm</option>' +
+								'<option>3.00 pm</option>' +
+								'<option>4.00 pm</option>' +
+								'<option>5.00 pm</option>' +
+								'<option>6.00 pm</option>' +
+								'<option>7.00 pm</option>' +
+								'<option>8.00 pm</option>' +
+								'<option>9.00 pm</option>' +
+								'<option>10.00 pm</option>' +
+								'<option>11.00 pm</option>' +
 							'</select>' +
 						'</div>' +
 					'</div>' +
@@ -323,7 +323,7 @@ Version      : 1.0
 							'<select class="form-control form-select">' +
 								'<option>Select</option>' +
 								'<option>12.00 am</option>' +
-								'<option>1.00 am</option>' + 
+								'<option>1.00 am</option>' +
 								'<option>2.00 am</option>' +
 								'<option>3.00 am</option>' +
 								'<option>4.00 am</option>' +
@@ -334,17 +334,17 @@ Version      : 1.0
 								'<option>9.00 am</option>' +
 								'<option>10.00 am</option>' +
 								'<option>11.00 am</option>' +
-								'<option>1.00 pm</option>' + 
-								'<option>2.00 pm</option>' + 
-								'<option>3.00 pm</option>' + 
-								'<option>4.00 pm</option>' + 
-								'<option>5.00 pm</option>' + 
-								'<option>6.00 pm</option>' + 
-								'<option>7.00 pm</option>' + 
-								'<option>8.00 pm</option>' + 
-								'<option>9.00 pm</option>' + 
-								'<option>10.00 pm</option>' + 
-								'<option>11.00 pm</option>' + 
+								'<option>1.00 pm</option>' +
+								'<option>2.00 pm</option>' +
+								'<option>3.00 pm</option>' +
+								'<option>4.00 pm</option>' +
+								'<option>5.00 pm</option>' +
+								'<option>6.00 pm</option>' +
+								'<option>7.00 pm</option>' +
+								'<option>8.00 pm</option>' +
+								'<option>9.00 pm</option>' +
+								'<option>10.00 pm</option>' +
+								'<option>11.00 pm</option>' +
 							'</select>' +
 						'</div>' +
 					'</div>' +
@@ -352,22 +352,22 @@ Version      : 1.0
 			'</div>' +
 			'<div class="col-12 col-md-2"><label class="d-md-block d-sm-none d-none">&nbsp;</label><a href="#" class="btn btn-danger trash"><i class="far fa-trash-alt"></i></a></div>' +
 		'</div>';
-		
+
         $(".hours-info").append(hourscontent);
         return false;
     });
-	
+
 	// Content div min height set
-	
+
 	function resizeInnerDiv() {
-		var height = $(window).height();	
+		var height = $(window).height();
 		var header_height = $(".header").height();
 		var footer_height = $(".footer").height();
 		var setheight = height - header_height;
 		var trueheight = setheight - footer_height;
 		$(".content").css("min-height", trueheight);
 	}
-	
+
 	if($('.content').length > 0 ){
 		resizeInnerDiv();
 	}
@@ -378,7 +378,7 @@ Version      : 1.0
 		}
 
 	});
-	
+
 	// Date Range Picker
 
 	if($('.bookingrange').length > 0) {
@@ -394,24 +394,24 @@ Version      : 1.0
 			endDate: end,
 			ranges: {
 				'Today': [moment(), moment()],
-				'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
-				'Last 7 Days': [moment().subtract(6, 'days'), moment()],
-				'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-				'This Month': [moment().startOf('month'), moment().endOf('month')],
-				'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+				// 'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+				// 'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+				// 'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+				// 'This Month': [moment().startOf('month'), moment().endOf('month')],
+				// 'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
 			}
 		}, booking_range);
 
 		booking_range(start, end);
 	}
-	
+
 	// Chat
 
 	var chatAppTarget = $('.chat-window');
 	(function() {
 		if ($(window).width() > 991)
 			chatAppTarget.removeClass('chat-slide');
-		
+
 		$(document).on("click",".chat-window .chat-users-list a.media",function () {
 			if ($(window).width() <= 991) {
 				chatAppTarget.addClass('chat-slide');
@@ -421,13 +421,13 @@ Version      : 1.0
 		$(document).on("click","#back_user_list",function () {
 			if ($(window).width() <= 991) {
 				chatAppTarget.removeClass('chat-slide');
-			}	
+			}
 			return false;
 		});
 	})();
-	
+
 	// Preloader
-	
+
 	$(window).on('load', function () {
 		if($('#loader').length > 0) {
 			$('#loader').delay(350).fadeOut('slow');
@@ -449,7 +449,7 @@ Version      : 1.0
 	}
 
 	// Slick Slider
-	
+
     if ($('.mendor-slider').length > 0) {
 	 $('.mendor-slider').slick({
 		  dots: false,
@@ -464,7 +464,7 @@ Version      : 1.0
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 3,
-                        slidesToScroll: 1                        
+                        slidesToScroll: 1
                     }
                 },
 				{
@@ -491,5 +491,5 @@ Version      : 1.0
             ]
 		});
 	}
-	
+
 })(jQuery);
