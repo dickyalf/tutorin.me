@@ -292,7 +292,7 @@
 										Fullstack Programming
 									</div>
 									<div class="mendor-price-list">
-										<div class="mendor-price">Rp 200.000 <span>/ hr</span></div>
+										<div class="mendor-price">Rp 100.000 <span>/ hr</span></div>
 										<div class="mendor-rating">
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
@@ -309,7 +309,7 @@
 							<div class="mendor-box">
 								<div class="mendor-img">
 									<a href="profile">
-										<img class="img-fluid" alt="" src="assets/foto/willas.jpg">
+										<img class="img-fluid" alt="" src="assets/foto/wilas.jpg">
 									</a>
 									<div class="mendor-country"><i class="fas fa-map-marker-alt"></i> Surabaya, Indonesia</div>
 								</div>
@@ -319,7 +319,7 @@
 										UNIX, Calculus, Trigonometry
 									</div>
 									<div class="mendor-price-list">
-										<div class="mendor-price">Rp 500.000 <span>/ hr</span></div>
+										<div class="mendor-price">Rp 50.000 <span>/ jam</span></div>
 										<div class="mendor-rating">
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
@@ -336,7 +336,7 @@
 							<div class="mendor-box">
 								<div class="mendor-img">
 									<a href="profile">
-										<img class="img-fluid" alt="" src="assets/foto/kevin1.jpg">
+										<img class="img-fluid" alt="" src="assets/foto/willy.jpg">
 									</a>
 									<div class="mendor-country"><i class="fas fa-map-marker-alt"></i> Surabaya, Indonesia</div>
 								</div>
@@ -346,7 +346,7 @@
 										ASP.NET,Computer Gaming
 									</div>
 									<div class="mendor-price-list">
-										<div class="mendor-price">Rp 300.000 <span>/ hr</span></div>
+										<div class="mendor-price">Rp 100.000 <span>/ jam</span></div>
 										<div class="mendor-rating">
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
@@ -363,7 +363,7 @@
 							<div class="mendor-box">
 								<div class="mendor-img">
 									<a href="profile">
-										<img class="img-fluid" alt="" src="assets/foto/yobel1.jpg">
+										<img class="img-fluid" alt="" src="assets/foto/yobel.jpg">
 									</a>
 									<div class="mendor-country"><i class="fas fa-map-marker-alt"></i> Surabaya, Indonesia</div>
 								</div>
@@ -373,7 +373,7 @@
 										Landscape Photography, Social Photography
 									</div>
 									<div class="mendor-price-list">
-										<div class="mendor-price">Rp 300.000 <span>/ hr</span></div>
+										<div class="mendor-price">Rp 75.000 <span>/ jam</span></div>
 										<div class="mendor-rating">
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
@@ -400,7 +400,7 @@
 										Digital Marketer
 									</div>
 									<div class="mendor-price-list">
-										<div class="mendor-price">Rp 400.000 <span>/ hr</span></div>
+										<div class="mendor-price">Rp 100.000 <span>/ jam</span></div>
 										<div class="mendor-rating">
 											<i class="fas fa-star filled"></i>
 											<i class="fas fa-star filled"></i>
