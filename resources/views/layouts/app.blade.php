@@ -144,35 +144,35 @@
             }
 
             document.getElementById('submitEvent').addEventListener('click', function() {
-                var newEventTitle = document.getElementById('eventTitle').value;
-                var newStartDate = document.getElementById('startDate').value;
-                var newStartTime = document.getElementById('startTime').value;
-                var newEndDate = document.getElementById('endDate').value;
-                var newEndTime = document.getElementById('endTime').value;
+            var newEventTitle = document.getElementById('eventTitle').value;
+            var newDate = document.getElementById('startDate').value;
+            var newStartTime = document.getElementById('startTime').value;
+            var newEndTime = document.getElementById('endTime').value;
 
-                if (newEventTitle && newStartDate && newEndDate) {
-                    var today = new Date();
-                    var startDate = new Date(newStartDate + 'T' + (newStartTime || '00:00') + ':00');
-                    var endDate = new Date(newEndDate + 'T' + (newEndTime || '23:59') + ':00');
+            if (newEventTitle && newDate && newStartTime && newEndTime) {
+                var today = new Date();
+                var startDate = new Date(newDate + 'T' + newStartTime + ':00');
+                var endDate = new Date(newDate + 'T' + newEndTime + ':00');
 
-                    today.setHours(0, 0, 0, 0);
+                today.setHours(0, 0, 0, 0);
 
-                    if (startDate >= today && endDate >= startDate) {
-                        calendar.addEvent({
-                            title: newEventTitle,
-                            start: startDate,
-                            end: endDate
-                        });
-                        addEventModal.style.display = 'none';
-                    } else {
-                        showModal(
-                            "The event dates are invalid. The start date cannot be before today and the end date cannot be before the start date."
-                            );
-                    }
+                if (startDate >= today && endDate > startDate) {
+                    calendar.addEvent({
+                        title: newEventTitle,
+                        start: startDate,
+                        end: endDate
+                    });
+                    addEventModal.style.display = 'none';
+                } else if (endDate <= startDate) {
+                    showModal("The end time must be later than the start time.");
                 } else {
-                    showModal("Event title, start date, and end date are required!");
+                    showModal("The event date is invalid. The start date cannot be before today.");
                 }
-            });
+            } else {
+                showModal("Event title, date, start time, and end time are required!");
+            }
+        });
+
 
             function showModal(message) {
                 document.getElementById('modal-message').textContent = message;
